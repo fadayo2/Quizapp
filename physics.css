@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+body {
+    font-family: "Itim", serif;
+    text-align: center;
+    background-color: #2e2e2e;
+    /* padding: 20px; */
+}
+#quiz-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    width: 80vw;
+    margin: auto;
+}
+.option {
+    display: block;
+    background: #15314e;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: left;
+    font-family: "Itim", serif;
+}
+.option:hover, .option.active {
+    background: #0056b3;
+}
+.btn-container {
+    margin-top: 20px;
+}
+button {
+    padding: 10px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+    font-family: "Itim", serif;
+}
+#prev-btn {
+    background: #2e2e2e;
+    color: white;
+}
+#next-btn {
+    background: #28a745;
+    color: white;
+}
+#score-container {
+    font-size: 20px;
+    margin-top: 20px;
+}
+#nav-buttons {
+    margin-top: 20px;
+}
+.nav-btn {
+    background: #ddd;
+    border: none;
+    padding: 8px 12px;
+    margin: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.nav-btn.active {
+    background: #007BFF;
+    color: white;
+}
+.nav-btn.answered {
+    background: #28a745;
+    color: white;
+}
+.nav-btn.unanswered {
+    background: #dc3545;
+    color: white;
+}
