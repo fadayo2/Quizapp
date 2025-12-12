@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap'); */
 
 body {
-    font-family: "Itim", serif;
+    font-family: sans-serif;
     text-align: center;
     background-color: #2e2e2e;
     /* padding: 20px; */
