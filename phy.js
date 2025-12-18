@@ -1,646 +1,1258 @@
 const gravityQuiz = [
-    {
-  "question": "The computer is fast becoming the universal machine of the ____ century.",
-  "options": [
-    "20th",
-    "19th",
-    "21st",
-    "22nd"
-  ],
-  "answer": "21st"
-  },
   {
-  "question": "Assess the following statement: 'Today, the computer is still confined to the laboratory.'",
-  "options": [
-    "True, as complex computing still requires specialized environments.",
-    "False, as computers are now integrated into homes, offices, and portable devices globally.",
-    "True, because powerful supercomputers are too large for commercial use.",
-    "False, but only small, portable devices have moved out of the lab."
-  ],
-  "answer": "False, as computers are now integrated into homes, offices, and portable devices globally."
-},
-{
-  "question": "A ____ is basically defined as a tool or machine used for processing data to give required information.",
-  "options": [
-    "Printer",
-    "Calculator",
-    "Software",
-    "Computer"
-  ],
-  "answer": "Computer"
-},
-{
-  "question": "____ is referred to as facts about a person, object, or place (e.g., name, age, complexion, school, class, and height).",
-  "options": [
-    "Information",
-    "Processing",
-    "Output",
-    "Data"
-  ],
-  "answer": "Data"
-},
-{
-  "question": "____ is referred to as processed data or a meaningful statement derived from raw facts.",
-  "options": [
-    "Data",
-    "Analysis",
-    "Processing",
-    "Information"
-  ],
-  "answer": "Information"
-},
-{
-  "question": "Which of the following is NOT a traditionally recognized method of data processing?",
-  "options": [
-    "Manual method",
-    "Mechanical method",
-    "Computer method",
-    "Chemical method"
-  ],
-  "answer": "Chemical method"
-},
-{
-  "question": "The method of data processing that involves the use of chalk, wall, pen, pencil, and the like is called the ____ method.",
-  "options": [
-    "Computer",
-    "Mechanical",
-    "Analog",
-    "Manual"
-  ],
-  "answer": "Manual"
-},
-  {
-    "question": "The manual data processing operations entail considerable ____.",
+    "question": "____ from the very beginning have attempted to systematise the knowledge they gain through their observations and experiments.",
     "options": [
-      "automated speed",
-      "digital capacity",
-      "manual efforts",
-      "computational analysis"
+      "Politicians",
+      "Artists",
+      "Scientists",
+      "Philosophers"
     ],
-    "answer": "manual efforts"
+    "answer": "Scientists"
   },
   {
-    "question": "The method of data processing involves the use of machines such as typewriter, roneo machines, adding machines, and the like.",
+    "question": "Scientists from the very beginning have attempted to systematise the knowledge they gain through their ____ and experiments.",
     "options": [
-      "Manual",
-      "Mechanical",
-      "Computer",
-      "Analytical"
+      "theories",
+      "observations",
+      "intuition",
+      "assumptions"
     ],
-    "answer": "Mechanical"
+    "answer": "observations"
   },
   {
-    "question": "The mechanical data processing operations are basically ____ in nature.",
+    "question": "Scientists from the very beginning have attempted to systematise the knowledge they gain through their observations and ____.",
     "options": [
-      "complex and adaptive",
-      "highly sophisticated",
-      "Routine",
-      "manual and intuitive"
+      "experiments",
+      "readings",
+      "discussions",
+      "publications"
     ],
-    "answer": "Routine"
+    "answer": "experiments"
   },
   {
-    "question": "Which of the following traits is NOT considered a core characteristic of a modern computer's operation?",
+    "question": "The development of the ____ and ____ of the elements has brought order in the study of the vast chemistry of more than a hundred elements known now.",
     "options": [
-      "Accuracy",
-      "Storage",
-      "Manual Effort",
-      "Flexibility"
+      "atomic theory and bonding",
+      "valence shells and octet rule",
+      "periodic law and periodic table",
+      "neutron discovery and mass"
     ],
-    "answer": "Manual Effort"
+    "answer": "periodic law and periodic table"
   },
   {
-    "question": "The computer system is primarily made up of the hardware and ____.",
+    "question": "It is quite natural to begin the study of inorganic chemistry with the study of the ____.",
     "options": [
-      "Peripherals",
-      "Software",
-      "Power supply",
-      "Monitor"
+      "carbon cycle",
+      "periodic table",
+      "organic compounds",
+      "noble gases"
     ],
-    "answer": "Software"
+    "answer": "periodic table"
   },
   {
-    "question": "The computer system is made up of the ____ and ____.",
+    "question": "By the mid-____ century, more than 60 elements were known and many more were being discovered.",
     "options": [
-      "Screen and Mouse",
-      "User and Internet",
-      "Hardware and software",
-      "Cables and Ports"
+      "18th",
+      "19th",
+      "20th",
+      "17th"
     ],
-    "answer": "Hardware and software"
+    "answer": "19th"
   },
   {
-    "question": "The computer hardware comprises the input unit, processing unit, and ____.",
+    "question": "By the mid-19th century, more than ____ elements were known and many more were being discovered.",
     "options": [
-      "Storage unit",
-      "Output unit",
-      "Communication unit",
-      "Display unit"
+      "30",
+      "100",
+      "60",
+      "118"
     ],
-    "answer": "Output unit"
+    "answer": "60"
   },
   {
-    "question": "The input unit comprises those media through which data is fed into the computer. Which of the following is NOT an example of a common input device?",
+    "question": "The property of metallic elements to be drawn into wire, such as is done when making electric wire, is known as ____.",
     "options": [
-      "Keyboard",
-      "Joystick",
-      "Scanner",
-      "Printer"
+      "malleability",
+      "conductivity",
+      "ductility",
+      "lustre"
     ],
-    "answer": "Printer"
+    "answer": "ductility"
   },
   {
-    "question": "All the electronic components in a PC are mounted on a piece of fiberglass called the ____.",
+    "question": "The ____ possess properties that are intermediate between those of metals and nonmetals.",
     "options": [
-      "Hard Drive",
-      "Motherboard",
-      "Central Processing Unit (CPU)",
-      "Graphics Card"
+      "Alkali metals",
+      "Noble gases",
+      "Metalloids",
+      "Halogens"
     ],
-    "answer": "Motherboard"
+    "answer": "Metalloids"
   },
   {
-    "question": "A small battery powers a ____ to keep track of the time when the PC is turned off.",
+    "question": "In what year did J.W. Dobereiner observe that there exist certain groups of three elements with similar properties called 'Triads'?",
     "options": [
-      "CMOS/RTC Clock",
-      "Processor fan",
-      "RAM chip",
-      "CD-ROM drive"
+      "1815",
+      "1829",
+      "1862",
+      "1890"
     ],
-    "answer": "CMOS/RTC Clock"
+    "answer": "1829"
   },
   {
-    "question": "ROM is the acronym for ____.",
+    "question": "Which chemist observed that elements in a triad had similar properties and that the atomic weight of the middle element was approximately the average of the other two?",
     "options": [
-      "Random Operating Machine",
-      "Real-time Online Module",
-      "Read Only Memory",
-      "Read Output Model"
+      "John Newlands",
+      "Dmitri Mendeleev",
+      "J.W. Dobereiner",
+      "Lothar Meyer"
     ],
-    "answer": "Read Only Memory"
+    "answer": "J.W. Dobereiner"
   },
   {
-    "question": "When a computer is switched on and running a program, ____ is used for purposes such as holding the program and its data.",
+    "question": "J.W. Dobereiner's groups of three elements with systematically related properties are known as ____.",
     "options": [
-      "Hard Disk Drive (HDD)",
-      "Read Only Memory (ROM)",
-      "RAM (Random Access Memory)",
-      "Solid State Drive (SSD)"
+      "Octaves",
+      "Periods",
+      "Triads",
+      "Families"
     ],
-    "answer": "RAM (Random Access Memory)"
+    "answer": "Triads"
   },
   {
-    "question": "Assess the following statement: 'Fiberglass can conduct electricity.'",
+    "question": "Who was the first chemist to point out a systematic relationship among the elements based on their atomic weights?",
+    "options": [
+      "A. de Chanourtois",
+      "J.W. Dobereiner",
+      "Robert Boyle",
+      "Henry Moseley"
+    ],
+    "answer": "J.W. Dobereiner"
+  },
+  {
+    "question": "In 1862, ____ arranged the known elements in order of increasing atomic weight on a line that spiraled around a cylinder.",
+    "options": [
+      "John Newlands",
+      "A. de Chanourtois",
+      "Dmitri Mendeleev",
+      "Glenn Seaborg"
+    ],
+    "answer": "A. de Chanourtois"
+  },
+  {
+    "question": "In 1862, A. de Chanourtois arranged elements in order of increasing atomic weight on a line spiraling around a cylinder from ____ to ____.",
+    "options": [
+      "left to right",
+      "center to edge",
+      "bottom to top",
+      "top to bottom"
+    ],
+    "answer": "bottom to top"
+  },
+  {
+    "question": "In 1862, ____ arranged the elements known at that time in order of increasing atomic weight on a line which spiralled around a cylinder from bottom to top.",
+    "options": [
+      "John Newlands",
+      "Dmitri Mendeleev",
+      "A. de Chanourtois",
+      "Lothar Meyer"
+    ],
+    "answer": "A. de Chanourtois"
+  },
+  {
+    "question": "A. de Chanourtois arranged the elements that were known at that time in order of ____ atomic weight on a line which spiralled around a cylinder from bottom to top.",
+    "options": [
+      "decreasing",
+      "increasing",
+      "constant",
+      "random"
+    ],
+    "answer": "increasing"
+  },
+  {
+    "question": "A. de Chanourtois arranged the elements that were known at that time in order of increasing ____ on a line which spiralled around a cylinder from bottom to top.",
+    "options": [
+      "atomic number",
+      "atomic weight",
+      "electron affinity",
+      "ionic radius"
+    ],
+    "answer": "atomic weight"
+  },
+  {
+    "question": "In what year did the English Chemist John Newlands report his 'Law of Octaves'?",
+    "options": [
+      "1829",
+      "1862",
+      "1864",
+      "1896"
+    ],
+    "answer": "1864"
+  },
+  {
+    "question": "Which chemist is credited with proposing the 'Law of Octaves' regarding the classification of elements?",
+    "options": [
+      "Dmitri Mendeleev",
+      "John Newlands",
+      "J.W. Dobereiner",
+      "Lothar Meyer"
+    ],
+    "answer": "John Newlands"
+  },
+  {
+    "question": "What was the nationality of the chemist John Newlands?",
+    "options": [
+      "German",
+      "French",
+      "English",
+      "Russian"
+    ],
+    "answer": "English"
+  },
+  {
+    "question": "John Newlands suggested that if elements were arranged by increasing atomic weight, every ____ element would have properties similar to the first.",
+    "options": [
+      "third",
+      "fifth",
+      "eighth",
+      "tenth"
+    ],
+    "answer": "eighth"
+  },
+  {
+    "question": "Newlands' 'Law of Octaves' was rejected for ____ main reasons.",
+    "options": [
+      "one",
+      "two",
+      "three",
+      "four"
+    ],
+    "answer": "two"
+  },
+  {
+    "question": "In ____, Lothar Meyer reported that when physical properties like atomic volume and boiling point were plotted against atomic weight, a periodic pattern emerged.",
+    "options": [
+      "1864",
+      "1869",
+      "1871",
+      "1880"
+    ],
+    "answer": "1869"
+  },
+  {
+    "question": "In 1869, ____ reported that when physical properties like atomic volume and boiling point were plotted against atomic weight, a periodic pattern emerged.",
+    "options": [
+      "John Newlands",
+      "Lothar Meyer",
+      "Dmitri Mendeleev",
+      "Henry Moseley"
+    ],
+    "answer": "Lothar Meyer"
+  },
+  {
+    "question": "Lothar Meyer observed that ____ behaviour is periodic when plotted against atomic weight.",
+    "options": [
+      "atomic volume",
+      "nuclear spin",
+      "neutron count",
+      "color spectrum"
+    ],
+    "answer": "atomic volume"
+  },
+  {
+    "question": "True or False: According to the observations of Lothar Meyer, atomic volume behavior is periodic.",
     "options": [
       "True",
-      "False",
-      "Only when wet",
-      "Only in extreme cold"
-    ],
-    "answer": "False"
-  },
-  {
-    "question": "The earliest PCs were equipped with a CPU from Intel Corporation called the ____.",
-    "options": [
-      "Pentium IV",
-      "8088",
-      "Core i7",
-      "4004"
-    ],
-    "answer": "8088"
-  },
-  {
-    "question": "CPU stands for ____.",
-    "options": [
-      "Computer Power Unit",
-      "Central Processing Unit",
-      "Core Program Utility",
-      "Command and Power Unit"
-    ],
-    "answer": "Central Processing Unit"
-  },
-  {
-    "question": "CPU stands for Central ____ Unit.",
-    "options": [
-      "Program",
-      "Power",
-      "Peripheral",
-      "Processing"
-    ],
-    "answer": "Processing"
-  },
-  {
-    "question": "The speed of a CPU is measured in ____.",
-    "options": [
-      "Gigabytes (GB)",
-      "Bytes per Second (Bps)",
-      "Megahertz (MHz)",
-      "Dots per Inch (DPI)"
-    ],
-    "answer": "Megahertz (MHz)"
-  },
-  {
-    "question": "The keys on a computer keyboard that can be likened to the conventional typewriter keys are the ____ keys.",
-    "options": [
-      "Function",
-      "Navigation",
-      "Control",
-      "Alphanumeric"
-    ],
-    "answer": "Alphanumeric"
-  },
-  {
-    "question": "The keypad containing the set of keys required for typing or entering number digits 0 through 9 into the computer is called the ____ keypad.",
-    "options": [
-      "Function",
-      "Control",
-      "Numeric",
-      "Alphanumeric"
-    ],
-    "answer": "Numeric"
-  },
-  {
-    "question": "When the ____ key is pressed, the capital letters on the alphanumeric keys are activated.",
-    "options": [
-      "Ctrl",
-      "Shift",
-      "Alt",
-      "Tab"
-    ],
-    "answer": "Shift"
-  },
-  {
-    "question": "ALU is the acronym for ____.",
-    "options": [
-      "Advanced Logic Utility",
-      "Arithmetic and Logic Unit",
-      "Allocated Logic Updater",
-      "Analog to Logical Unit"
-    ],
-    "answer": "Arithmetic and Logic Unit"
-  },
-  {
-    "question": "The processing unit is made up of the Arithmetic and Logic Unit (ALU), the control unit, and the ____.",
-    "options": [
-      "Input Unit",
-      "Main memory",
-      "Output Unit",
-      "Hard Drive"
-    ],
-    "answer": "Main memory"
-  },
-  {
-    "question": "The main memory, also known as primary memory, is made up of the Read Only Memory (ROM) and the ____.",
-    "options": [
-      "Flash Memory",
-      "Solid State Drive (SSD)",
-      "Random Access Memory (RAM)",
-      "Cache Memory"
-    ],
-    "answer": "Random Access Memory (RAM)"
-  },
-  {
-    "question": "____ are the series of instructions that enable the computer to perform a task or group of tasks.",
-    "options": [
-      "Data",
-      "Computer hardware",
-      "Information",
-      "Computer software"
-    ],
-    "answer": "Computer software"
-  },
-  {
-    "question": "A ____ is made up of a group of instructions to perform a specific task.",
-    "options": [
-      "Operating System",
-      "Program",
-      "Peripheral",
-      "Utility"
-    ],
-    "answer": "Program"
-  },
-  {
-    "question": "A series of programs linked together make up a ____.",
-    "options": [
-      "Hardware",
-      "Network",
-      "Utility",
-      "Software"
-    ],
-    "answer": "Software"
-  },
-  {
-    "question": "Which of the following is a primary category into which computer programs are commonly classified?",
-    "options": [
-      "Hardware Drivers",
-      "System software",
-      "Network Software",
-      "Proprietary Software"
-    ],
-    "answer": "System software"
-  },
-  {
-    "question": "The different categories of personnel that operate the computer are called ____.",
-    "options": [
-      "Programmers",
-      "System analysts",
-      "Engineers",
-      "Computer users"
-    ],
-    "answer": "Computer users"
-  },
-  {
-    "question": "The ____ ranges from the building housing the other elements of the computing system (namely the computer and the users), the furniture, and auxiliary devices.",
-    "options": [
-      "System software",
-      "Network infrastructure",
-      "Physical plant",
-      "Computing environment"
-    ],
-    "answer": "Computing environment"
-  },
-  {
-    "question": "UPS is the acronym for ____.",
-    "options": [
-      "Universal Processing Standard",
-      "Utility Power Service",
-      "Unified Program System",
-      "Uninterruptible Power Supply System"
-    ],
-    "answer": "Uninterruptible Power Supply System"
-  },
-  {
-    "question": "Most of today’s computers are ____ computers.",
-    "options": [
-      "Analog",
-      "Quantum",
-      "Mechanical",
-      "Digital"
-    ],
-    "answer": "Digital"
-  },
-  {
-    "question": "The First Generation of Electronic Computers primarily took place between ____.",
-    "options": [
-      "1954 – 1963",
-      "1937 – 1953",
-      "1964 – 1971",
-      "1972 – 1990"
-    ],
-    "answer": "1937 – 1953"
-  },
-  {
-    "question": "The earliest attempt to build an electronic computer was by J. V. Atanasoff, a professor of physics and mathematics at Iowa State, in ____.",
-    "options": [
-      "1945",
-      "1937",
-      "1950",
-      "1928"
-    ],
-    "answer": "1937"
-  },
-  {
-    "question": "ENIAC is the acronym for ____.",
-    "options": [
-      "Electrical Network Integrated Analog Computer",
-      "Electronic Numerical Integrator and Calculator",
-      "Electronic Numerical Integrator and Computer",
-      "Early Numerical Integrated Analog Calculator"
-    ],
-    "answer": "Electronic Numerical Integrator and Computer"
-  },
-  {
-    "question": "The first general purpose programmable electronic computer was the ____.",
-    "options": [
-      "Analytical Engine",
-      "Electronic Numerical Integrator and Computer (ENIAC)",
-      "EDVAC",
-      "UNIVAC"
-    ],
-    "answer": "Electronic Numerical Integrator and Computer (ENIAC)"
-  },
-  {
-    "question": "Electronic Numerical Integrator and Computer (ENIAC) was built by ____.",
-    "options": [
-      "Alan Turing and John von Neumann",
-      "Charles Babbage and Ada Lovelace",
-      "J. Presper Eckert and John V. Mauchly",
-      "Konrad Zuse and Herman Hollerith"
-    ],
-    "answer": "J. Presper Eckert and John V. Mauchly"
-  },
-  {
-    "question": "Assess the following statement: 'EDVAC was able to run orders of magnitude faster than ENIAC.'",
-    "options": [
-      "True",
-      "False",
-      "The statement is irrelevant to the comparison",
-      "They ran at the same speed"
+      "False"
     ],
     "answer": "True"
   },
   {
-    "question": "By the 1950s, programmers were using a symbolic notation known as ____.",
+    "question": "The atomic volume goes through cycles, dropping from a sharp maximum to a minimum and then sharply rising again. Each of these cycles is called a ____.",
     "options": [
-      "binary code",
-      "high-level language",
-      "assembly language",
-      "machine code"
+      "Group",
+      "Family",
+      "Period",
+      "Valence"
     ],
-    "answer": "assembly language"
+    "answer": "Period"
   },
   {
-    "question": "The first computer programs were written out in ____.",
+    "question": "____ used chemical properties like valence and the formulae of hydrides, chlorides, and oxides of the elements to illustrate his periodic law.",
     "options": [
-      "high-level language",
-      "machine code",
-      "assembly language",
-      "binary language"
+      "John Newlands",
+      "Dmitri Mendeleev",
+      "Lothar Meyer",
+      "J.W. Dobereiner"
     ],
-    "answer": "machine code"
+    "answer": "Dmitri Mendeleev"
   },
   {
-    "question": "J. Presper Eckert and John V. Mauchly developed UNIVAC in ____.",
+    "question": "According to ____, if the elements are arranged sequentially in the order of increasing atomic weight, a periodic repetition (periodicity) in properties is observed.",
     "options": [
-      "1947",
-      "1960",
-      "1952",
-      "1945"
+      "Newlands' Law",
+      "Dobereiner's Triads",
+      "Mendeleev's periodic law",
+      "Moseley's Law"
     ],
-    "answer": "1952"
+    "answer": "Mendeleev's periodic law"
   },
   {
-    "question": "The UNIVAC (Universal Automatic Computer) was developed by ____.",
+    "question": "____ arranged elements in horizontal rows and vertical columns in order of increasing atomic weight.",
     "options": [
-      "Charles Babbage and Ada Lovelace",
-      "John von Neumann",
-      "Eckert and Mauchly",
-      "Alan Turing"
+      "Lothar Meyer",
+      "John Newlands",
+      "Dmitri Mendeleev",
+      "Henry Moseley"
     ],
-    "answer": "Eckert and Mauchly"
+    "answer": "Mendeleev"
   },
   {
-    "question": "The Second Generation of computer technology is generally considered to have spanned the years ____.",
+    "question": "Mendeleev arranged elements in horizontal rows and vertical columns in order of ____ atomic weight.",
     "options": [
-      "1937 – 1953",
-      "1972 – 1990",
-      "1963 – 1971",
-      "1954 – 1962"
+      "decreasing",
+      "increasing",
+      "constant",
+      "random"
     ],
-    "answer": "1954 – 1962"
+    "answer": "increasing"
   },
   {
-    "question": "Which of the following high-level programming languages was introduced and widely adopted during the Second Generation of computers (1954–1962)?",
+    "question": "How did Mendeleev physically organize the elements to illustrate his periodic law?",
     "options": [
-      "Python",
-      "FORTRAN",
-      "Java",
-      "C++"
+      "In a single vertical list",
+      "In a spiral cylinder",
+      "In horizontal rows and vertical columns",
+      "In triangular clusters"
     ],
-    "answer": "FORTRAN"
+    "answer": "horizontal rows and vertical columns in order of increasing atomic weight"
   },
   {
-    "question": "The high-level programming language FORTRAN was originally developed in the year ____.",
+    "question": "The validity of Mendeleev's periodic law was proven by the discovery of elements he predicted. The first discovered was eka-aluminium, found by ____.",
     "options": [
-      "1950",
-      "1961",
-      "1956",
-      "1965"
+      "Clemens Winkler",
+      "Lecoq de Boisbaudran",
+      "Lars Nilson",
+      "Ernest Rutherford"
     ],
-    "answer": "1956"
+    "answer": "Lecoq de Boisbaudran"
   },
   {
-    "question": "The block-structured programming language ALGOL was introduced in the year ____.",
+    "question": "In what year was the predicted element eka-aluminium (Gallium) discovered by Lecoq de Boisbaudran?",
     "options": [
-      "1953",
-      "1960",
-      "1958",
-      "1962"
+      "1869",
+      "1875",
+      "1886",
+      "1894"
     ],
-    "answer": "1958"
+    "answer": "1875"
   },
   {
-    "question": "The common business-oriented language COBOL was introduced in the year ____.",
+    "question": "Which scientist discovered the element and named it 'gallium'?",
     "options": [
-      "1955",
-      "1963",
-      "1959",
-      "1968"
+      "Mendeleev",
+      "Lothar Meyer",
+      "Lecoq de Boisbaudran",
+      "John Newlands"
     ],
-    "answer": "1959"
+    "answer": "Lecoq de Boisbaudran"
   },
   {
-    "question": "The ____ generation of computer technology saw the introduction of the first two supercomputers designed specifically for numeric processing in scientific applications.",
+    "question": "Lecoq de Boisbaudran gave the name ____ to the element he discovered, which Mendeleev had predicted as eka-aluminium.",
     "options": [
-      "First",
-      "Second",
-      "Third",
-      "Fourth"
+      "Germanium",
+      "Scandium",
+      "Gallium",
+      "Thallium"
     ],
-    "answer": "Second"
+    "answer": "gallium"
   },
   {
-    "question": "The term ____ is generally reserved for a machine that is an order of magnitude more powerful than other machines of its era.",
+    "question": "What is the density of the element gallium (expressed in kg/m³)?",
     "options": [
-      "Mainframe",
-      "Supercomputer",
-      "Microcomputer",
-      "Minicomputer"
+      "2.5x10³",
+      "4.7x10³",
+      "5.9x10³",
+      "7.2x10³"
     ],
-    "answer": "Supercomputer"
+    "answer": "4.7x103"
   },
   {
-    "question": "LARC is the acronym for ____.",
+    "question": "What does the acronym IUPAC stand for?",
     "options": [
-      "Large Area Remote Control",
-      "Logic and Arithmetic Research Calculator",
-      "Livermore Atomic Research Computer",
-      "Low-Altitude Radar Center"
+      "International Union of Pure and Applied Chemists",
+      "Internal Unit of Physics and Chemistry",
+      "International Union of Professional and Analytical Chemistry",
+      "Integrated Union of Pure and Allied Chemists"
     ],
-    "answer": "Livermore Atomic Research Computer"
+    "answer": "International Union of Pure and Applied Chemists"
   },
   {
-    "question": "The Third Generation of computer technology spanned the years ____.",
+    "question": "During which period did Mendeleev work to refine and improve his periodic table?",
     "options": [
-      "1954 – 1962",
-      "1963 – 1972",
-      "1972 – 1990",
-      "1991 – Present"
+      "1850 - 1869",
+      "1869 - 1907",
+      "1907 - 1920",
+      "1880 - 1913"
     ],
-    "answer": "1963 – 1972"
+    "answer": "1869 -1907"
   },
   {
-    "question": "In computer chip manufacturing, SSI is the acronym for ____.",
+    "question": "In what year was the revolutionary concept of the 'atomic number' discovered?",
     "options": [
-      "System Software Interface",
-      "Solid State Initialization",
-      "Small-Scale Integration",
-      "Standard System Interconnect"
+      "1895",
+      "1905",
+      "1913",
+      "1925"
     ],
-    "answer": "Small-Scale Integration"
+    "answer": "1913"
   },
   {
-    "question": "MSI is the acronym for ____.",
+    "question": "The discovery of the concept of atomic number was in 1913 by ____.",
     "options": [
-      "Main System Interface",
-      "Medium-Scale Integrated",
-      "Modular System Integration",
-      "Memory Storage Index"
+      "Ernest Rutherford",
+      "Henry Moseley",
+      "Niels Bohr",
+      "James Chadwick"
     ],
-    "answer": "Medium-Scale Integrated"
+    "answer": "Henry Moseley"
   },
   {
-    "question": "In ____, Seymour Cray developed the CDC 6600, which is often considered the first successful commercial supercomputer.",
+    "question": "____ suggested that the atomic number of an element is a more fundamental property than its atomic weight.",
     "options": [
-      "1958",
-      "1964",
-      "1970",
-      "1975"
+      "John Dalton",
+      "Dmitri Mendeleev",
+      "Henry Moseley",
+      "J.J. Thomson"
     ],
-    "answer": "1964"
+    "answer": "Henry Moseley"
   },
   {
-    "question": "The Fourth Generation of computer technology spanned the years ____.",
+    "question": "Mendeleev's periodic law was modified following Moseley's discovery. This updated version is now known as the ____.",
     "options": [
-      "1963 – 1972",
-      "1972 – 1984",
-      "1984 – 1990",
-      "1991 – Present"
+      "Atomic Law",
+      "Modern Periodic Law",
+      "Law of Octaves",
+      "Chemical Property Law"
     ],
-    "answer": "1972 – 1984"
+    "answer": "Modern Periodic Law"
   },
   {
-    "question": "The Fifth Generation of computer technology is generally considered to have spanned the years ____.",
+    "question": "The ____ states that: 'the properties of elements are periodic functions of their atomic numbers'.",
     "options": [
-      "1972 – 1984",
-      "1984 – 1990",
-      "1991 – Present",
-      "2000 – Present"
+      "Law of Conservation of Mass",
+      "Modern Periodic Law",
+      "Periodic Weight Theory",
+      "Valence Bond Theory"
     ],
-    "answer": "1984 – 1990"
+    "answer": "Modern Periodic Law"
   },
   {
-    "question": "WAN is the acronym for ____.",
+    "question": "Arrangement of the elements in order of their increasing atomic number removes most of the ____ found in Mendeleev's periodic table.",
     "options": [
-      "Wired Access Network",
-      "Wide Area Network",
-      "Wireless Array Node",
-      "Web Access Network"
+      "anomalies",
+      "isotopes",
+      "electrons",
+      "weights"
     ],
-    "answer": "Wide Area Network"
+    "answer": "anomalies"
   },
   {
-    "question": "LAN is the acronym for ____.",
+    "question": "____ of an element have the same atomic number but different mass numbers.",
     "options": [
-      "Local Access Node",
-      "Lightweight Area Network",
-      "Local Area Network",
-      "Line Alignment Node"
+      "Allotropes",
+      "Isomers",
+      "Isotopes",
+      "Ions"
     ],
-    "answer": "Local Area Network"
+    "answer": "Isotopes"
   },
   {
-    "question": "There are ____ basic types of electronic computers (based on data representation).",
+    "question": "Isotopes of a single element are characterized by having the same ____.",
+    "options": [
+      "atomic weight",
+      "neutron count",
+      "atomic number",
+      "mass number"
+    ],
+    "answer": "atomic number"
+  },
+  {
+    "question": "In the modern form of Mendeleev's periodic table, elements are arranged in ____ horizontal rows and ____ vertical columns.",
+    "options": [
+      "Six, Seven",
+      "Seven, Eight",
+      "Eight, Eight",
+      "Seven, Eighteen"
+    ],
+    "answer": "Seven, eight"
+  },
+  {
+    "question": "____ scientists claimed credit for discovering element 104.",
+    "options": [
+      "British and French",
+      "American and Soviet",
+      "German and Japanese",
+      "American and Chinese"
+    ],
+    "answer": "American and Soviet"
+  },
+  {
+    "question": "American and Soviet scientists claimed credit for discovering element ____.",
+    "options": [
+      "101",
+      "104",
+      "106",
+      "110"
+    ],
+    "answer": "104"
+  },
+  {
+    "question": "____ and Soviet scientists claimed credit for discovering element 104.",
+    "options": [
+      "American",
+      "British",
+      "French",
+      "German"
+    ],
+    "answer": "American"
+  },
+  {
+    "question": "American and ____ scientists claimed credit for discovering element 104.",
+    "options": [
+      "Soviet",
+      "Japanese",
+      "Indian",
+      "Italian"
+    ],
+    "answer": "Soviet"
+  },
+  {
+    "question": "The ____ gives rise to the periodic arrangement of the elements according to their atomic numbers, which refers to the number of electrons in their orbitals.",
+    "options": [
+      "Law of Octaves",
+      "Triad Principle",
+      "Periodic Law",
+      "Atomic Mass Theory"
+    ],
+    "answer": "periodic law"
+  },
+  {
+    "question": "The ____ of atoms can be predicted with the help of Aufbau or the building up process.",
+    "options": [
+      "nuclear stability",
+      "electronic configuration",
+      "isotopic mass",
+      "electronegativity"
+    ],
+    "answer": "electronic configuration"
+  },
+  {
+    "question": "The electronic configuration of atoms can be predicted with the help of ____ or the building up process.",
+    "options": [
+      "Hund's Rule",
+      "Aufbau",
+      "Pauli Principle",
+      "Le Chatelier"
+    ],
+    "answer": "Aufbau"
+  },
+  {
+    "question": "The electronic configuration of atoms can be predicted with the help of Aufbau or the ____.",
+    "options": [
+      "breaking down process",
+      "building up process",
+      "filling in process",
+      "orbital shift process"
+    ],
+    "answer": "building up process"
+  },
+  {
+    "question": "In the ____ process, it is assumed that there exist a set of empty hydrogen-like orbitals around the nucleus of an atom.",
+    "options": [
+      "Moseley",
+      "Mendeleev",
+      "Aufbau",
+      "Triad"
+    ],
+    "answer": "Aufbau"
+  },
+  {
+    "question": "The order in which the orbitals are filled is governed by the ____ rule.",
+    "options": [
+      "n + l",
+      "Octet",
+      "Hund's",
+      "Moseley"
+    ],
+    "answer": "n + 1"
+  },
+  {
+    "question": "According to the ____, no two electrons in the same atom can have the same value of n, l, and mₗ; they must differ in their mₛ values.",
+    "options": [
+      "Heisenberg Principle",
+      "Pauli Exclusion Principle",
+      "Aufbau Principle",
+      "Avogadro's Law"
+    ],
+    "answer": "Pauli Exclusion Principle"
+  },
+  {
+    "question": "An orbital can have at most ____ electrons of opposite spin.",
+    "options": [
+      "one",
+      "two",
+      "six",
+      "eight"
+    ],
+    "answer": "Two"
+  },
+  {
+    "question": "____ of maximum multiplicity states that, as far as possible, electrons in the same subshell will occupy different orbitals with parallel spins before pairing up.",
+    "options": [
+      "Pauli's rule",
+      "Hund's rule",
+      "Newton's law",
+      "Bohr's theory"
+    ],
+    "answer": "Hund's rule"
+  },
+  {
+    "question": "Which period is the smallest of all the periods in the periodic table?",
+    "options": [
+      "Period 1",
+      "Period 2",
+      "Period 4",
+      "Period 7"
+    ],
+    "answer": "Period 1"
+  },
+  {
+    "question": "Hydrogen (Z = 1) and helium (Z = 2) are the two elements belonging to ____.",
+    "options": [
+      "Period 1",
+      "Period 2",
+      "Group 2",
+      "the Halogens"
+    ],
+    "answer": "period 1"
+  },
+  {
+    "question": "Which period contains elements from lithium (Z = 3) to neon (Z = 10)?",
+    "options": [
+      "Period 1",
+      "Period 2",
+      "Period 3",
+      "Period 4"
+    ],
+    "answer": "Period 2"
+  },
+  {
+    "question": "____ used chemical properties like valence and formulae of hydrides, chlorides, and oxides of the elements to illustrate the periodic law.",
+    "options": [
+      "John Newlands",
+      "Lothar Meyer",
+      "Mendeleev",
+      "Henry Moseley"
+    ],
+    "answer": "Mendeleev"
+  },
+  {
+    "question": "According to ____ periodic law, if the elements are arranged sequentially in the order of increasing atomic weight, a periodic repetition (periodicity) in properties is observed.",
+    "options": [
+      "Newlands'",
+      "Dobereiner's",
+      "Mendeleev's",
+      "Moseley's"
+    ],
+    "answer": "Mendeleev's"
+  },
+  {
+    "question": "According to Mendeleev's periodic law, if the elements are arranged sequentially in the order of ____, a periodic repetition in properties is observed.",
+    "options": [
+      "increasing atomic number",
+      "decreasing atomic mass",
+      "increasing atomic weight",
+      "increasing density"
+    ],
+    "answer": "increasing atomic weight"
+  },
+  {
+    "question": "According to Mendeleev's ____ law, if the elements are arranged sequentially in the order of increasing atomic weight, a periodic repetition in properties is observed.",
+    "options": [
+      "Atomic",
+      "Periodic",
+      "Octave",
+      "Triad"
+    ],
+    "answer": "Periodic"
+  },
+  {
+    "question": "____ arranged elements in horizontal rows and vertical columns in order of increasing atomic weight.",
+    "options": [
+      "Lothar Meyer",
+      "John Newlands",
+      "Mendeleev",
+      "Henry Moseley"
+    ],
+    "answer": "Mendeleev"
+  },
+  {
+    "question": "The validity of Mendeleev's periodic law was dramatically and conclusively proven by the ____ of three out of the more than ten elements he predicted.",
+    "options": [
+      "Discovery",
+      "Synthesis",
+      "Naming",
+      "Weight"
+    ],
+    "answer": "Discovery"
+  },
+  {
+    "question": "Lecoq de Boisbaudran initially reported the density of gallium as ____, though it was later found to be higher.",
+    "options": [
+      "4.7x10³",
+      "5.8x10³",
+      "6.1x10³",
+      "3.5x10³"
+    ],
+    "answer": "4.7x103"
+  },
+  {
+    "question": "Which scientist discovered that Mendeleev was correct in predicting the true density of gallium to be $5.8 \\times 10^3$ kg/m³?",
+    "options": [
+      "Mendeleev",
+      "Lecoq de Boisbaudran",
+      "Lars Fredrick Nilson",
+      "Winkler"
+    ],
+    "answer": "Lecoq de Boisbaudran"
+  },
+  {
+    "question": "Who is the scientist credited with the discovery of Scandium (eka-boron)?",
+    "options": [
+      "Lecoq de Boisbaudran",
+      "Lars Fredrick Nilson",
+      "Clemens Winkler",
+      "Henry Moseley"
+    ],
+    "answer": "Lars Fredrick Nilson"
+  },
+  {
+    "question": "The element Germanium (eka-silicon) was discovered by which chemist?",
+    "options": [
+      "Lars Fredrick Nilson",
+      "Winkler",
+      "Lecoq de Boisbaudran",
+      "John Newlands"
+    ],
+    "answer": "Winkler"
+  },
+  {
+    "question": "____ discovered that the properties of any element are an average of the properties of its neighbors in the periodic table.",
+    "options": [
+      "Lothar Meyer",
+      "Henry Moseley",
+      "Mendeleev",
+      "John Newlands"
+    ],
+    "answer": "Mendeleev"
+  },
+  {
+    "question": "Mendeleev arranged elements in order of ____ atomic weight.",
+    "options": [
+      "Increasing",
+      "Decreasing",
+      "Constant",
+      "Relative"
+    ],
+    "answer": "Increasing"
+  },
+  {
+    "question": "True or False: The periodic table used in science today has many similarities with the version originally formed by Mendeleev.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "Between ______, Mendeleev worked to improve the arrangement of elements in his periodic table.",
+    "options": [
+      "1850 - 1869",
+      "1869 - 1907",
+      "1907 - 1920",
+      "1880 - 1913"
+    ],
+    "answer": "1869 - 1907"
+  },
+  {
+    "question": "The revolutionary concept of the atomic number was discovered by which scientist?",
+    "options": [
+      "Ernest Rutherford",
+      "Dmitri Mendeleev",
+      "Henry Moseley",
+      "Niels Bohr"
+    ],
+    "answer": "Henry Moseley"
+  },
+  {
+    "question": "In what year was the concept of the atomic number officially discovered?",
+    "options": [
+      "1869",
+      "1898",
+      "1913",
+      "1932"
+    ],
+    "answer": "1913"
+  },
+  {
+    "question": "The ____ Law states that: 'the properties of elements are periodic functions of their atomic numbers'.",
+    "options": [
+      "Modern Periodic",
+      "Mendeleev's Periodic",
+      "Newlands' Octave",
+      "Dobereiner's Triad"
+    ],
+    "answer": "Mendeleev's Periodic"
+  },
+  {
+    "question": "According to the provided text, how many elements (from 1 to 109) have been discovered today?",
+    "options": [
+      "92",
+      "103",
+      "109",
+      "118"
+    ],
+    "answer": "109"
+  },
+  {
+    "question": "In the Mendeleev periodic table, elements are arranged in ____ horizontal rows and eight vertical columns.",
+    "options": [
+      "Six",
+      "Seven",
+      "Eight",
+      "Nine"
+    ],
+    "answer": "Seven"
+  },
+  {
+    "question": "In the modern form of Mendeleev's periodic table, elements are arranged in seven horizontal rows and ____ vertical columns.",
+    "options": [
+      "Seven",
+      "Eight",
+      "Eighteen",
+      "Thirty-two"
+    ],
+    "answer": "Eight"
+  },
+  {
+    "question": "Regarding the naming controversy of element 104, what name did the American scientists give to it?",
+    "options": [
+      "Mendelevium",
+      "Nobelium",
+      "Rutherfordium",
+      "Kurchatovium"
+    ],
+    "answer": "Rutherfordium"
+  },
+  {
+    "question": "The Soviet scientists named element 104 ____, while the Americans named it Rutherfordium.",
+    "options": [
+      "Dubnium",
+      "Fermium",
+      "Kurchotovium",
+      "Seaborgium"
+    ],
+    "answer": "Kurchotovium"
+  },
+  {
+    "question": "The ____ gives rise to the periodic arrangement of elements according to their atomic numbers, which corresponds to the number of electrons in their orbitals.",
+    "options": [
+      "Law of Triads",
+      "Periodic Law",
+      "Octet Rule",
+      "Aufbau Principle"
+    ],
+    "answer": "periodic law"
+  },
+  {
+    "question": "The periodic law gives rise to the periodic arrangement of elements according to their ____.",
+    "options": [
+      "atomic weights",
+      "atomic numbers",
+      "mass numbers",
+      "density"
+    ],
+    "answer": "atomic numbers"
+  },
+  {
+    "question": "The filling of electrons in orbitals is governed by which of the following rules?",
+    "options": [
+      "Newton's Laws",
+      "Dalton's Atomic Theory",
+      "Pauli’s Exclusion Principle and Hund's rule",
+      "Avogadro's Hypothesis"
+    ],
+    "answer": "Pauli’s Exclusion Principle and Hund's rule"
+  },
+  {
+    "question": "According to the ____ Principle, no two electrons in the same atom can have the same value for all quantum numbers (n, l, and mₗ).",
+    "options": [
+      "Aufbau",
+      "Pauli Exclusion",
+      "Uncertainty",
+      "Hund's"
+    ],
+    "answer": "Pauli Exclusion"
+  },
+  {
+    "question": "____ states that, as far as possible in a given atom in the ground state, electrons in the same subshell will occupy different orbitals and will have parallel spins.",
+    "options": [
+      "Hund's rule",
+      "Pauli Exclusion Principle",
+      "Aufbau Principle",
+      "Heisenberg Uncertainty Principle"
+    ],
+    "answer": "Hund's rule"
+  },
+  {
+    "question": "Carbon in the ground state has the configuration $1s^{2} 2s^{2} 2p_{x}^{1} 2p_{y}^{1}$ rather than $1s^{2} 2s^{2} 2p_{x}^{2}$ to satisfy which rule?",
+    "options": [
+      "Octet Rule",
+      "Hund's Rule",
+      "Pauli Principle",
+      "Bohr Theory"
+    ],
+    "answer": "Hund's rule"
+  },
+  {
+    "question": "Which period is the smallest of all the periods in the periodic table?",
+    "options": [
+      "Period 1",
+      "Period 2",
+      "Period 7",
+      "Period 4"
+    ],
+    "answer": "Period 1"
+  },
+  {
+    "question": "Which element has the electronic configuration of $[He] 2s^{2} 2p^{6}$?",
+    "options": [
+      "Oxygen",
+      "Fluorine",
+      "Neon",
+      "Argon"
+    ],
+    "answer": "Neon"
+  },
+  {
+    "question": "There are ____ periods in the modern Periodic Table.",
+    "options": [
+      "Five",
+      "Seven",
+      "Eight",
+      "Eighteen"
+    ],
+    "answer": "Seven"
+  },
+  {
+    "question": "Elements of the periodic table have been divided into ____ blocks (s, p, d, and f).",
+    "options": [
+      "Two",
+      "Three",
+      "Four",
+      "Five"
+    ],
+    "answer": "Four"
+  },
+  {
+    "question": "Alkali and alkaline earth metals of groups 1 (IA) and 2 (IIA) belong to the ____.",
+    "options": [
+      "s-block",
+      "p-block",
+      "d-block",
+      "f-block"
+    ],
+    "answer": "s-block"
+  },
+  {
+    "question": "The elements in Group 1 are specifically known as ____ metals.",
+    "options": [
+      "Alkali",
+      "Alkaline earth",
+      "Transition",
+      "Noble"
+    ],
+    "answer": "Alkali"
+  },
+  {
+    "question": "The elements in Group 2 are specifically known as ____ metals.",
+    "options": [
+      "Alkali",
+      "Alkaline earth",
+      "Inner transition",
+      "Halogen"
+    ],
+    "answer": "Alkaline earth"
+  },
+  {
+    "question": "The d-block elements are also known as ____ elements.",
+    "options": [
+      "Representative",
+      "Transition",
+      "Inner-transition",
+      "Noble"
+    ],
+    "answer": "Elements"
+  },
+  {
+    "question": "The f-block elements are collectively referred to as ____ elements.",
+    "options": [
+      "Representative",
+      "Transition",
+      "Inner-transition",
+      "Alkali"
+    ],
+    "answer": "Inner-transition"
+  },
+  {
+    "question": "Elements of the 4f series which follow lanthanum in the periodic table are known as ____.",
+    "options": [
+      "Actinides",
+      "Lanthanides",
+      "Halogens",
+      "Metalloids"
+    ],
+    "answer": "Lanthanides"
+  },
+  {
+    "question": "Elements of the 5f series following actinium are called ____.",
+    "options": [
+      "Lanthanides",
+      "Actinides",
+      "Chalcogens",
+      "Noble gases"
+    ],
+    "answer": "Actinides"
+  },
+  {
+    "question": "The ____ states that no two electrons in the same atom can have the same value of all four quantum numbers.",
+    "options": [
+      "Aufbau Principle",
+      "Pauli Exclusion Principle",
+      "Hund's Rule",
+      "Heisenberg Principle"
+    ],
+    "answer": "Pauli Exclusion principles"
+  },
+  {
+    "question": "The ____ states that, as far as possible, electrons in the same subshell will occupy different orbitals with parallel spins before pairing.",
+    "options": [
+      "Pauli Principle",
+      "Hund's rule",
+      "Octet Rule",
+      "Modern Periodic Law"
+    ],
+    "answer": "Hund's rule"
+  },
+  {
+    "question": "____ are the measure of the size of the atom.",
+    "options": [
+      "Atomic radii",
+      "Atomic numbers",
+      "Electron affinities",
+      "Ionization energies"
+    ],
+    "answer": "Atomic radii"
+  },
+  {
+    "question": "____ can be defined as one half of the distance between the nuclei of two like atoms bonded together by a single covalent bond.",
+    "options": [
+      "Ionic radius",
+      "Metallic radius",
+      "Covalent radius",
+      "Van der Waals radius"
+    ],
+    "answer": "Covalent radius"
+  },
+  {
+    "question": "The chemical bonding that exists within a non-metal molecule is largely ____.",
+    "options": [
+      "Ionic",
+      "Metallic",
+      "Covalent",
+      "Electrovalent"
+    ],
+    "answer": "Covalent"
+  },
+  {
+    "question": "____ is defined as one-half of the distance between the nuclei of two adjacent metal atoms in the close-packed crystal lattice.",
+    "options": [
+      "Covalent radius",
+      "Ionic radius",
+      "Metallic radius",
+      "Van der Waals radius"
+    ],
+    "answer": "Metallic radius"
+  },
+  {
+    "question": "True or False: Metallic radii are generally larger than the corresponding covalent radii for a given element.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "True or False: The forces within metallic crystal lattices are stronger than van der Waals forces.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "____ is defined as the distance between the nucleus of an ion and the point up to which the nucleus exerts influence on its electron cloud.",
+    "options": [
+      "Atomic radius",
+      "Ionic radius",
+      "Covalent radius",
+      "Metallic radius"
+    ],
+    "answer": "Ionic radius"
+  },
+  {
+    "question": "Which term can be defined as the distance of the closest approach to the center of an ion by another ion?",
+    "options": [
+      "Effective nuclear charge",
+      "Ionic radius",
+      "Principal quantum number",
+      "Bond length"
+    ],
+    "answer": "Ionic radius"
+  },
+  {
+    "question": "Ionic radii are categorized into which two specific types?",
+    "options": [
+      "Cation radii and anion radii",
+      "Metallic radii and covalent radii",
+      "Nuclear radii and orbital radii",
+      "S-block radii and P-block radii"
+    ],
+    "answer": "cation radii and anion radii"
+  },
+  {
+    "question": "How many types of ionic radii are recognized based on the charge of the ion?",
+    "options": [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+    ],
+    "answer": "Two"
+  },
+  {
+    "question": "Which of the following are the primary factors affecting atomic radii?",
+    "options": [
+      "Atomic weight and boiling point",
+      "Principal quantum number and effective nuclear charge",
+      "Electronegativity and electron affinity",
+      "Mass number and number of neutrons"
+    ],
+    "answer": "Principal quantum, number and effective nuclear charge"
+  },
+  {
+    "question": "____ is the actual amount of positive charge felt by the outer (valence) electrons in an atom.",
+    "options": [
+      "Ionization energy",
+      "Effective nuclear charge (Z*)",
+      "Principal quantum number",
+      "Electron affinity"
+    ],
+    "answer": "Effective nuclear charge Z*"
+  },
+  {
+    "question": "The energy required to remove the least strongly bound electron from an isolated gaseous atom in its ground state is known as ____.",
+    "options": [
+      "Binding energy",
+      "Activation energy",
+      "Ionization energy",
+      "Lattice energy"
+    ],
+    "answer": "ionisation energy"
+  },
+  {
+    "question": "____ of an atom is a measure of its ability to accept an electron to form an anion.",
+    "options": [
+      "Ionization energy",
+      "Electron affinity",
+      "Electronegativity",
+      "Lattice energy"
+    ],
+    "answer": "Electron affinity"
+  },
+  {
+    "question": "____ is defined as the energy released or absorbed when an electron is added to a gaseous atom in its ground state.",
+    "options": [
+      "Electron affinity",
+      "Ionization potential",
+      "Activation energy",
+      "Bond enthalpy"
+    ],
+    "answer": "Electron affinity"
+  },
+  {
+    "question": "Mulliken defined ____ as the mean value of the first ionization energy and the first electron affinity of an atom.",
+    "options": [
+      "Electronegativity",
+      "Effective nuclear charge",
+      "Atomic radius",
+      "Valency"
+    ],
+    "answer": "Electronegativity"
+  },
+  {
+    "question": "According to the Mulliken scale, electronegativity is calculated as the average of which two periodic properties?",
+    "options": [
+      "Atomic radius and ionic radius",
+      "First ionization energy and first electron affinity",
+      "Mass number and atomic number",
+      "Metallic character and non-metallic character"
+    ],
+    "answer": "First ionisation energy and first electron affinity"
+  },
+  {
+    "question": "According to Alfred Rochow, ____ is equated to the force of attraction between an atom and the electron separated by a distance equal to the covalent radius of the atom.",
+    "options": [
+      "Ionization energy",
+      "Electronegativity",
+      "Electron affinity",
+      "Atomic mass"
+    ],
+    "answer": "Electronegativity"
+  },
+  {
+    "question": "____ is a measure of the attraction that an atom has for electrons in a bond it has formed with another atom.",
+    "options": [
+      "Electronegativity",
+      "Valency",
+      "Ionization potential",
+      "Lattice energy"
+    ],
+    "answer": "Electronegativity"
+  },
+  {
+    "question": "Atoms of an element which have the same atomic number but different mass numbers are called ____.",
+    "options": [
+      "Isomers",
+      "Allotropes",
+      "Isotopes",
+      "Isobars"
+    ],
+    "answer": "Isotopes"
+  },
+  {
+    "question": "Hydrogen has ____ different isotopes.",
     "options": [
       "Two",
       "Three",
@@ -650,1544 +1262,2115 @@ const gravityQuiz = [
     "answer": "Three"
   },
   {
-    "question": "The basic types of computer (based on data representation) are Digital, Analog, and ____.",
+    "question": "Deuterium, one of the isotopes of hydrogen, is also commonly called ____.",
     "options": [
-      "Quantum",
-      "Hybrid",
-      "Mainframe",
-      "Supercomputer"
+      "Light hydrogen",
+      "Heavy hydrogen",
+      "Radioactive hydrogen",
+      "Soft hydrogen"
     ],
-    "answer": "Hybrid"
+    "answer": "heavy hydrogen"
   },
   {
-    "question": "Which of the following is a primary classification of a computer based on the type of signal it processes?",
+    "question": "Naturally occurring hydrogen contains approximately ____% deuterium.",
     "options": [
-      "Microcomputer",
-      "Digital Computer",
-      "Mainframe Computer",
-      "Minicomputer"
+      "0.0156",
+      "0.1560",
+      "1.5600",
+      "0.0015"
     ],
-    "answer": "Digital Computer"
+    "answer": "0.0156"
   },
   {
-    "question": "A ____ represents its variables in the form of digits.",
+    "question": "Which substance is used as a moderator in nuclear reactions?",
     "options": [
-      "Analog Computer",
-      "Hybrid Computer",
-      "Digital Computer",
-      "Quantum Computer"
+      "Protium oxide",
+      "Deuterium oxide",
+      "Tritium oxide",
+      "Hydrogen peroxide"
     ],
-    "answer": "Digital Computer"
+    "answer": "Deuterium oxide"
   },
   {
-    "question": "The ____ counts the data it deals with, whether representing numbers, letters, or other symbols, by converting them into binary form on input to the computer.",
+    "question": "Naturally occurring hydrogen contains nearly ____% tritium.",
     "options": [
-      "Analog Computer",
-      "Hybrid Computer",
-      "Digital Computer",
-      "Mechanical Calculator"
+      "10⁻⁵",
+      "10⁻¹⁰",
+      "10⁻¹⁵",
+      "10⁻²⁰"
     ],
-    "answer": "Digital Computer"
+    "answer": "10-15"
   },
   {
-    "question": "A computer that ____ rather than counts is known as an Analog Computer.",
+    "question": "Ortho and ____ are two different forms of the hydrogen molecule.",
     "options": [
-      "converts",
-      "computes",
-      "measures",
-      "digitizes"
+      "Meta",
+      "Para",
+      "Alpha",
+      "Isotope"
     ],
-    "answer": "measures"
+    "answer": "Para"
   },
   {
-    "question": "What type of computer holds data in the form of physical variables rather than numerical quantities?",
+    "question": "____ and Para are two different forms of the hydrogen molecule.",
     "options": [
-      "Digital computers",
-      "Supercomputers",
-      "Analog computers",
-      "Quantum computers"
+      "Ortho",
+      "Delta",
+      "Beta",
+      "Gamma"
     ],
-    "answer": "Analog computers"
+    "answer": "Ortho"
   },
   {
-    "question": "A ____ needs a conversion element which accepts analog inputs and outputs digital values.",
+    "question": "____ is an equilibrium mixture of Ortho and Para hydrogen.",
     "options": [
-      "Analog Computer",
-      "Digital Computer",
-      "Mainframe Computer",
-      "Hybrid Computer"
+      "Deuterium",
+      "Hydrogen gas",
+      "Heavy water",
+      "Nascent hydrogen"
     ],
-    "answer": "Hybrid Computer"
+    "answer": "Hydrogen gas"
   },
   {
-    "question": "Based on classification by purpose, computers are classified as either ____ or general purpose.",
+    "question": "True or False: Para hydrogen is more stable at lower temperatures.",
     "options": [
-      "embedded purpose",
-      "personal purpose",
-      "universal purpose",
-      "special purpose"
+      "True",
+      "False"
     ],
-    "answer": "special purpose"
+    "answer": "True"
   },
   {
-    "question": "A ____ computer is one that is designed to solve a restricted class of problems.",
+    "question": "True or False: The physical properties of Ortho and Para hydrogen are similar.",
     "options": [
-      "general purpose",
-      "personal",
-      "utility",
-      "special purpose"
+      "True",
+      "False"
     ],
-    "answer": "special purpose"
+    "answer": "True"
   },
   {
-    "question": "____ computers are computers designed to handle a wide range of problems.",
+    "question": "____ is a natural abundant source for the manufacture of hydrogen.",
     "options": [
-      "Special-Purpose",
-      "General-Purpose",
-      "Hybrid",
-      "Analog"
+      "Water",
+      "Air",
+      "Limestone",
+      "Ammonia"
     ],
-    "answer": "General-Purpose"
+    "answer": "Water"
   },
   {
-    "question": "Microcomputers are also known as ____.",
+    "question": "Water can be reduced to hydrogen either chemically or ____.",
     "options": [
-      "Minicomputers",
-      "supercomputers",
-      "single board computers",
-      "mainframe computers"
+      "Magnetically",
+      "Electrically",
+      "Thermally",
+      "Atmospherically"
     ],
-    "answer": "single board computers"
+    "answer": "Electrically"
   },
   {
-    "question": "____ are small-size types of computer that are typically battery-operated and portable.",
+    "question": "The mixture of CO and $H_2$ is known as ____.",
     "options": [
-      "Desktop Computers",
-      "Server Computers",
-      "Laptop Computers",
-      "Mainframe Computers"
+      "Natural gas",
+      "Coal gas",
+      "Water gas",
+      "Producer gas"
     ],
-    "answer": "Laptop Computers"
+    "answer": "Water gas"
   },
   {
-    "question": "The ____ is like laptop computers but smaller in size, although small, it comprises all the components of a full system.",
+    "question": "The mixture of CO and $H_2$, commonly known as water gas, is also called ____.",
     "options": [
-      "Tablet Computer",
-      "Notebook Computer",
-      "Handheld PC",
-      "Workstation"
+      "Synthesis gas",
+      "Laughing gas",
+      "Noble gas",
+      "Marsh gas"
     ],
-    "answer": "Notebook Computer"
+    "answer": "Synthesis gas"
   },
   {
-    "question": "The ____ Computers have memory capacity typically in the range of 128 K bytes to 256 K bytes.",
+    "question": "Which of the following is the lightest element known?",
     "options": [
+      "Helium",
+      "Lithium",
+      "Hydrogen",
+      "Oxygen"
+    ],
+    "answer": "Hydrogen"
+  },
+  {
+    "question": "The lightest known element is ____.",
+    "options": [
+      "Helium",
+      "Hydrogen",
+      "Lithium",
+      "Beryllium"
+    ],
+    "answer": "Hydrogen"
+  },
+  {
+    "question": "Which of the following elements has the lowest atomic mass in the periodic table?",
+    "options": [
+      "Hydrogen",
+      "Oxygen",
+      "Carbon",
+      "Nitrogen"
+    ],
+    "answer": "Hydrogen"
+  },
+  {
+    "question": "In a fuel cell, electrical energy is generated by the reaction of hydrogen in a process called ____.",
+    "options": [
+      "Cold combustion",
+      "Thermal fission",
+      "Rapid oxidation",
+      "Electrolytic splitting"
+    ],
+    "answer": "Cold combustion"
+  },
+  {
+    "question": "In what physical state is hydrogen typically used as a high-efficiency rocket fuel?",
+    "options": [
+      "Gaseous",
+      "Liquid",
+      "Solid",
+      "Plasma"
+    ],
+    "answer": "Liquid"
+  },
+  {
+    "question": "The decomposition of water by solar energy in the presence of a catalyst is known as ____ of water.",
+    "options": [
+      "Thermal dissociation",
+      "Photochemical decomposition",
+      "Radiolytic decay",
+      "Galvanic reduction"
+    ],
+    "answer": "photochemical decomposition"
+  },
+  {
+    "question": "Ionic hydrides are formed by heating metals in hydrogen at what temperature?",
+    "options": [
+      "273 K",
+      "573 K",
+      "973 K",
+      "1273 K"
+    ],
+    "answer": "973 K"
+  },
+  {
+    "question": "Ionic hydrides are also known as ____ hydrides.",
+    "options": [
+      "Covalent",
+      "Saline",
+      "Interstitial",
+      "Molecular"
+    ],
+    "answer": "Saline"
+  },
+  {
+    "question": "When heated, hydrogen reacts with many transition metals, including lanthanides and actinides, to form ____.",
+    "options": [
+      "Ionic hydrides",
+      "Metallic hydrides",
+      "Molecular hydrides",
+      "Polymeric hydrides"
+    ],
+    "answer": "metallic hydrides"
+  },
+  {
+    "question": "____ can be defined as the attractive force which binds the hydrogen atom of one molecule with an electronegative atom of another molecule.",
+    "options": [
+      "Ionic bond",
+      "Covalent bond",
+      "Hydrogen bond",
+      "Metallic bond"
+    ],
+    "answer": "Hydrogen bond"
+  },
+  {
+    "question": "There are ____ distinct types of hydrogen bonding recognized in chemistry.",
+    "options": [
+      "Two",
+      "Three",
+      "Four",
+      "Five"
+    ],
+    "answer": "Two"
+  },
+  {
+    "question": "What are the two specific types of hydrogen bonding?",
+    "options": [
+      "Ionic and Covalent hydrogen bonding",
+      "Intermolecular and Intra-molecular hydrogen bonding",
+      "Primary and Secondary hydrogen bonding",
+      "Polar and Non-polar hydrogen bonding"
+    ],
+    "answer": "Intermolecular hydrogen bonding and Intra-molecular hydrogen bonding"
+  },
+  {
+    "question": "The elements found in Group 1 and Group 2 of the periodic table are collectively called the ____ elements.",
+    "options": [
+      "p-block",
+      "d-block",
+      "f-block",
+      "s-block"
+    ],
+    "answer": "S-block"
+  },
+  {
+    "question": "Group 1 elements (Li, Na, K, Rb, Cs, and Fr) are known by what common name?",
+    "options": [
+      "Alkaline earth metals",
+      "Alkali Metals",
+      "Noble gases",
+      "Halogens"
+    ],
+    "answer": "Alkali Metals"
+  },
+  {
+    "question": "Which of the following compounds is the most abundant metal-containing source in sea water?",
+    "options": [
+      "Potassium chloride",
+      "Magnesium sulfate",
+      "Sodium chloride",
+      "Lithium carbonate"
+    ],
+    "answer": "Sodium chloride"
+  },
+  {
+    "question": "____ is obtained industrially by the reduction of its chloride with sodium vapor.",
+    "options": [
+      "Lithium",
+      "Potassium",
+      "Cesium",
+      "Francium"
+    ],
+    "answer": "Potassium"
+  },
+  {
+    "question": "Which compound is commonly used in the formulation of liquid detergents?",
+    "options": [
+      "Sodium hydroxide",
+      "Potassium hydroxide",
+      "Calcium hydroxide",
+      "Magnesium hydroxide"
+    ],
+    "answer": "Potassium hydroxide"
+  },
+  {
+    "question": "Which compound is used in breathing apparatus to absorb carbon dioxide and release oxygen?",
+    "options": [
+      "Potassium superoxide",
+      "Sodium chloride",
+      "Potassium nitrate",
+      "Magnesium oxide"
+    ],
+    "answer": "Potassium superoxide"
+  },
+  {
+    "question": "____ is used along with charcoal and sulphur in the manufacture of gun powder.",
+    "options": [
+      "Potassium nitrate",
+      "Sodium hydroxide",
+      "Calcium carbonate",
+      "Potassium chloride"
+    ],
+    "answer": "Potassium nitrate"
+  },
+  {
+    "question": "____ is a major component of plant fertilizers, typically applied in the form of chloride and nitrate salts.",
+    "options": [
+      "Lithium",
+      "Sodium",
+      "Potassium",
+      "Cesium"
+    ],
+    "answer": "Potassium"
+  },
+  {
+    "question": "____ can be defined as mass per unit volume.",
+    "options": [
+      "Velocity",
+      "Density",
+      "Viscosity",
+      "Pressure"
+    ],
+    "answer": "Density"
+  },
+  {
+    "question": "Which of the following is the most abundant metallic element found in sea water?",
+    "options": [
+      "Magnesium",
+      "Potassium",
+      "Sodium",
+      "Calcium"
+    ],
+    "answer": "Sodium"
+  },
+  {
+    "question": "Lepidolite is an important mineral ore of which alkali metal?",
+    "options": [
+      "Lithium",
+      "Sodium",
+      "Potassium",
+      "Rubidium"
+    ],
+    "answer": "Lithium"
+  },
+  {
+    "question": "Regarding the periodic trend in Group 1, ionization energy increases from ____ to Lithium.",
+    "options": [
+      "Sodium",
+      "Potassium",
+      "Cesium",
+      "Francium"
+    ],
+    "answer": "francium"
+  },
+  {
+    "question": "The specific heat capacity of ____ is the highest of all the metallic elements.",
+    "options": [
+      "Lithium",
+      "Sodium",
+      "Iron",
+      "Aluminum"
+    ],
+    "answer": "Lithium"
+  },
+  {
+    "question": "The ionic character of alkali metal halides ____ as you move down the group.",
+    "options": [
+      "Increases",
+      "Decreases",
+      "Remains constant",
+      "Fluctuates"
+    ],
+    "answer": "Decreases"
+  },
+  {
+    "question": "The solubility of alkali metal fluorides in water ____ as you move down the group.",
+    "options": [
+      "Increases",
+      "Decreases",
+      "Stays the same",
+      "Becomes zero"
+    ],
+    "answer": "Increases"
+  },
+  {
+    "question": "The melting and boiling points of alkali metals ____ as you move down the group.",
+    "options": [
+      "Increase",
+      "Decrease",
+      "Stay the same",
+      "Increase then decrease"
+    ],
+    "answer": "Decrease"
+  },
+  {
+    "question": "Lithium reacts directly with carbon at high temperatures to form ____.",
+    "options": [
+      "Covalent carbides",
+      "Interstitial carbides",
+      "Ionic carbides",
+      "Molecular carbides"
+    ],
+    "answer": "ionic carbides"
+  },
+  {
+    "question": "The stability of an alkali salt is largely dependent upon its ____.",
+    "options": [
+      "Enthalpy of formation",
+      "Atomic radius",
+      "Electronegativity",
+      "Color"
+    ],
+    "answer": "enthalpy of formation"
+  },
+  {
+    "question": "When a metal ion is surrounded by solvent molecules, the phenomenon is called ____ of the metal ion.",
+    "options": [
+      "Oxidation",
+      "Solvation",
+      "Reduction",
+      "Sublimation"
+    ],
+    "answer": "Solvation"
+  },
+  {
+    "question": "When the solvent specifically used is water, the phenomenon of surrounding a metal ion is called ____.",
+    "options": [
+      "Hydrolysis",
+      "Hydrogenation",
+      "Hydration",
+      "Dilution"
+    ],
+    "answer": "Hydration"
+  },
+  {
+    "question": "____ is defined as solvation where water is the specific solvent used.",
+    "options": [
+      "Hydrolysis",
+      "Hydration",
+      "Hydrogenation",
+      "Dehydration"
+    ],
+    "answer": "Hydration"
+  },
+  {
+    "question": "All alkali metals are highly soluble in liquid ammonia, producing a solution of what color?",
+    "options": [
+      "Bright red",
+      "Deep blue",
+      "Pale green",
+      "Golden yellow"
+    ],
+    "answer": "deep blue"
+  },
+  {
+    "question": "Electrons that become associated with and stabilized by solvent molecules are known as ____.",
+    "options": [
+      "Valence electrons",
+      "Solvated Electrons",
+      "Free radicals",
+      "Core electrons"
+    ],
+    "answer": "Solvated Electrons"
+  },
+  {
+    "question": "A complex compound features a central atom or ion surrounded by a group of ions or molecules called ____.",
+    "options": [
+      "Isotopes",
+      "Ligands",
+      "Allotropes",
+      "Catalysts"
+    ],
+    "answer": "Ligands"
+  },
+  {
+    "question": "At what temperature does Lithium carbonate ($Li_2CO_3$) decompose?",
+    "options": [
+      "750 K",
+      "850 K",
+      "950 K",
+      "1050 K"
+    ],
+    "answer": "K 950"
+  },
+  {
+    "question": "The decomposition of sodium carbonate typically takes place below ____.",
+    "options": [
+      "950 K",
+      "1050 K",
+      "1150 K",
+      "1250 K"
+    ],
+    "answer": "K. 1050"
+  },
+  {
+    "question": "Which element is the second most abundant metallic element in sea water, after sodium?",
+    "options": [
+      "Potassium",
+      "Calcium",
+      "Magnesium",
+      "Lithium"
+    ],
+    "answer": "Magnesium"
+  },
+  {
+    "question": "Which of the following elements is a primary constituent found in the bones of humans and animals?",
+    "options": [
+      "Beryllium",
+      "Calcium",
+      "Radium",
+      "Barium"
+    ],
+    "answer": "Calcium"
+  },
+  {
+    "question": "Which radioactive element is extremely scarce, making up only about $10^{-10}\\%$ of the earth's crust?",
+    "options": [
+      "Radium",
+      "Uranium",
+      "Francium",
+      "Thorium"
+    ],
+    "answer": "Radium"
+  },
+  {
+    "question": "Which element is found at the center of the chlorophyll molecule in green plants?",
+    "options": [
+      "Iron",
+      "Magnesium",
+      "Calcium",
+      "Zinc"
+    ],
+    "answer": "Magnesium"
+  },
+  {
+    "question": "Beryllium is industrially obtained through the electrolysis of which molten compound?",
+    "options": [
+      "Beryllium oxide",
+      "Beryllium fluoride",
+      "Beryllium chloride",
+      "Beryllium sulfate"
+    ],
+    "answer": "beryllium chloride"
+  },
+  {
+    "question": "In the extraction of Calcium from fused calcium chloride, what material is used as the anode?",
+    "options": [
+      "Iron",
+      "Graphite anode",
+      "Copper",
+      "Platinum"
+    ],
+    "answer": "graphite anode"
+  },
+  {
+    "question": "In the electrolytic extraction of Calcium, which material serves as the cathode?",
+    "options": [
+      "Graphite",
+      "Iron cathode",
+      "Aluminum",
+      "Mercury"
+    ],
+    "answer": "iron cathode"
+  },
+  {
+    "question": "Beryllium is used for making atomic fuel containers because ____.",
+    "options": [
+      "It is the most abundant alkaline earth metal",
+      "It absorbs very few neutrons and does not become radioactive",
+      "It has a very low melting point",
+      "It is highly reactive with water"
+    ],
+    "answer": "it absorbs very few neutrons and does not become radioactive."
+  },
+  {
+    "question": "True or False: The first ionization energy of alkaline earth metals is higher than that of the corresponding alkali metals.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "The ionization energy of alkaline earth metals ____ as you move down the group.",
+    "options": [
+      "Increases",
+      "Decreases",
+      "Remains constant",
+      "Increases then decreases"
+    ],
+    "answer": "Decreases"
+  },
+  {
+    "question": "The electropositive character and reducing property of Group 2 elements ____ on moving down the group.",
+    "options": [
+      "Decrease",
+      "Increase",
+      "Stay the same",
+      "Become zero"
+    ],
+    "answer": "Increase"
+  },
+  {
+    "question": "Hydration and lattice energies in Group 2 decrease with an ____ in the size of the metal ions.",
+    "options": [
+      "Increase",
+      "Decrease",
+      "Equalization",
+      "Elimination"
+    ],
+    "answer": "increase"
+  },
+  {
+    "question": "When two hydrogen atoms combine and their nuclei spin in the same direction (parallel spins), the form is known as ____.",
+    "options": [
+      "Para Hydrogen",
+      "Ortho Hydrogen",
+      "Meta Hydrogen",
+      "Heavy Hydrogen"
+    ],
+    "answer": "Ortho Hydrogen"
+  },
+  {
+    "question": "When the two hydrogen nuclei in a molecule spin in opposite directions, the form is called ____.",
+    "options": [
+      "Ortho Hydrogen",
+      "Para Hydrogen",
+      "Alpha Hydrogen",
+      "Beta Hydrogen"
+    ],
+    "answer": "Para Hydrogen"
+  },
+  {
+    "question": "Hydrogen can be produced by the reaction of methane with ____ in the presence of a nickel catalyst.",
+    "options": [
+      "Steam",
+      "Oxygen",
+      "Nitrogen",
+      "Carbon dioxide"
+    ],
+    "answer": "Steam"
+  },
+  {
+    "question": "In chemical reactions, metals generally act as very powerful ____ agents.",
+    "options": [
+      "Oxidizing",
+      "Reducing",
+      "Dehydrating",
+      "Catalytic"
+    ],
+    "answer": "Reducing"
+  },
+  {
+    "question": "Sulfur reacts directly with hydrogen to form which gas?",
+    "options": [
+      "Sulfur dioxide",
+      "Sulfuric acid",
+      "Hydrogen sulfide",
+      "Sulfur hexafluoride"
+    ],
+    "answer": "Hydrogen"
+  },
+  {
+    "question": "Carbon monoxide is strongly reduced by hydrogen to yield which product?",
+    "options": [
+      "Methane",
+      "Formaldehyde",
+      "Formic acid",
+      "Carbon dioxide"
+    ],
+    "answer": "Formaldehyde"
+  },
+  {
+    "question": "Electrical energy is generated in a fuel cell through a process referred to as ____.",
+    "options": [
+      "Rapid oxidation",
+      "Thermal fission",
+      "Cold combustion",
+      "Electrolysis"
+    ],
+    "answer": "Cold combustion"
+  },
+  {
+    "question": "While fuel cells can have efficiencies approaching 75%, standard power plants that burn fuels typically have efficiencies of only about ____.",
+    "options": [
+      "10%",
+      "25%",
+      "40%",
+      "60%"
+    ],
+    "answer": "40%"
+  },
+  {
+    "question": "____ are characterized as being soft, having low melting points, and being poor conductors of electricity.",
+    "options": [
+      "Ionic hydrides",
+      "Metallic hydrides",
+      "Covalent hydrides",
+      "Interstitial hydrides"
+    ],
+    "answer": "covalent hydrides"
+  },
+  {
+    "question": "A ____ hydrogen bond is formed between two atoms within the same molecule.",
+    "options": [
+      "Intermolecular",
+      "Intramolecular",
+      "Extramolecular",
+      "Ionic"
+    ],
+    "answer": "Intramolecular"
+  },
+  {
+    "question": "The half-life period of Tritium, the radioactive isotope of hydrogen, is ____ years.",
+    "options": [
+      "5.2",
+      "12.3",
+      "25.0",
+      "5730"
+    ],
+    "answer": "12.3"
+  },
+  {
+    "question": "In certain groups, the melting and boiling points increase due to the presence of ____.",
+    "options": [
+      "Van der Waals forces",
+      "Metallic bonding",
+      "Hydrogen bonding",
+      "Covalent networks"
+    ],
+    "answer": "Hydrogen bonding"
+  },
+  {
+    "question": "The solubility of a substance increases markedly when ____ is possible between the solvent and the solute molecules.",
+    "options": [
+      "Ion-dipole interaction",
+      "Hydrogen bonding",
+      "London dispersion",
+      "Hydrophobic exclusion"
+    ],
+    "answer": "Hydrogen bonding"
+  },
+  {
+    "question": "How many types of hydrogen bonding are there?",
+    "options": [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+    ],
+    "answer": "Two"
+  },
+  {
+    "question": "Which type of hydrogen bonding occurs between different molecules of the same or different compounds?",
+    "options": [
+      "Intramolecular",
+      "Intermolecular",
+      "Ionic",
+      "Metallic"
+    ],
+    "answer": "Intermolecular"
+  },
+  {
+    "question": "Which type of hydrogen bonding can lead to the formation of a ring structure within a single molecule?",
+    "options": [
+      "Intramolecular",
+      "Intermolecular",
+      "Covalent",
+      "Van der Waals"
+    ],
+    "answer": "Intramolecular"
+  },
+  {
+    "question": "What percentage of rubidium chloride is found as an impurity in the mineral Carnallite?",
+    "options": [
+      "0.01%",
+      "0.49%",
+      "0.94%",
+      "1.50%"
+    ],
+    "answer": "0.94%"
+  },
+  {
+    "question": "The hydrides of lithium and sodium (such as $LiAlH_4$ and $NaBH_4$) are primarily used as ____ agents in synthetic organic chemistry.",
+    "options": [
+      "Oxidizing",
+      "Reducing",
+      "Dehydrating",
+      "Bleaching"
+    ],
+    "answer": "Reducing"
+  },
+  {
+    "question": "Due to their low resistance and mobile valence electrons, alkali metals are useful as ____ conductors.",
+    "options": [
+      "Thermal",
+      "Electrical",
+      "Insulating",
+      "Semiconducting"
+    ],
+    "answer": "Electrical"
+  },
+  {
+    "question": "Normal oxides ($M_2O$) and peroxides ($M_2O_2$) of alkali metals share which two physical properties?",
+    "options": [
+      "Coloured and Paramagnetic",
+      "Colourless and Diamagnetic",
+      "Coloured and Ferromagnetic",
+      "Colourless and Paramagnetic"
+    ],
+    "answer": "colourless and diamagnetic"
+  },
+  {
+    "question": "Unlike normal oxides, the Superoxides ($MO_2$) of alkali metals are typically ____.",
+    "options": [
+      "Colourless and Diamagnetic",
+      "Coloured and Paramagnetic",
+      "Solid and Non-reactive",
+      "Liquid and Acidic"
+    ],
+    "answer": "Coloured and Paramagnetic"
+  },
+  {
+    "question": "All Group 1 metal oxides are strongly ____ and react vigorously with water to form hydroxides.",
+    "options": [
+      "Acidic",
+      "Amphoteric",
+      "Basic",
+      "Neutral"
+    ],
+    "answer": "Basic"
+  },
+  {
+    "question": "The polysulphides of sodium (like $Na_2S_n$) are characterized by having what kind of chain structure?",
+    "options": [
+      "Linear",
+      "Circular",
+      "Zig-zag",
+      "Branched"
+    ],
+    "answer": "zig-zag"
+  },
+  {
+    "question": "What was the density of Gallium ($kg/m^3$) as predicted by Mendeleev before its actual discovery?",
+    "options": [
+      "$4.5 \\times 10^3$",
+      "$5.8 \\times 10^3$",
+      "$6.2 \\times 10^3$",
+      "$7.1 \\times 10^3$"
+    ],
+    "answer": "5.8 x103"
+  },
+  {
+    "question": "The work of Lars Fredrick Nilson led to the discovery of which important transition element?",
+    "options": [
+      "Gallium",
+      "Germanium",
+      "Scandium",
+      "Technetium"
+    ],
+    "answer": "Scandium"
+  },
+  {
+    "question": "Who was the scientist responsible for the first discovery of Germanium as an element?",
+    "options": [
+      "Mendeleev",
+      "Winkler",
+      "Nilson",
+      "Ramsay"
+    ],
+    "answer": "Winkler"
+  },
+  {
+    "question": "What is the maximum number of electrons that can be held by a d-orbital set?",
+    "options": [
+      "Six",
+      "Eight",
+      "Ten",
+      "Twelve"
+    ],
+    "answer": "Ten"
+  },
+  {
+    "question": "An f-orbital subshell can hold a maximum of how many electrons?",
+    "options": [
+      "Ten",
+      "Twelve",
+      "Fourteen",
+      "Sixteen"
+    ],
+    "answer": "Fourteen"
+  },
+  {
+    "question": "What is the maximum number of electrons that can be contained in the p-orbitals (p-subshell) with opposite spins?",
+    "options": [
+      "Two",
+      "Four",
+      "Six",
+      "Eight"
+    ],
+    "answer": "Six"
+  },
+  {
+    "question": "How many individual sub-orbitals (orientations) are found within the f-orbital subshell?",
+    "options": [
+      "Three",
+      "Five",
+      "Seven",
+      "Nine"
+    ],
+    "answer": "Seven"
+  },
+  {
+    "question": "The electronic configuration $1s^2 2s^2 2p^6 3s^2 3p^6 3d^{10} 4s^2$ corresponds to which neutral atom?",
+    "options": [
+      "Copper",
+      "Zinc",
+      "Gallium",
+      "Nickel"
+    ],
+    "answer": "Zinc"
+  },
+  {
+    "question": "Period 1 of the modern periodic table consists of how many elements?",
+    "options": [
+      "Two",
+      "Eight",
+      "Eighteen",
+      "Thirty-two"
+    ],
+    "answer": "Two"
+  },
+  {
+    "question": "The metallic radius of an element depends to some extent on which of the following?",
+    "options": [
+      "Crystal structure of the metal",
+      "Electronegativity",
+      "Number of neutrons",
+      "Ambient pressure"
+    ],
+    "answer": "Crystal structure of the metal"
+  },
+  {
+    "question": "Hydrogen may not be advantageous as a fuel because it is considered a secondary ____.",
+    "options": [
+      "Pollutant",
+      "Source of energy",
+      "Oxidizing agent",
+      "Isotope"
+    ],
+    "answer": "Source of energy"
+  },
+  {
+    "question": "The elements of the periodic table have been divided into how many blocks (s, p, d, f)?",
+    "options": [
+      "Two",
+      "Three",
+      "Four",
+      "Five"
+    ],
+    "answer": "Four"
+  },
+  {
+    "question": "Lanthanides and actinides are collectively known as which type of elements?",
+    "options": [
+      "s-block elements",
+      "p-block elements",
+      "d-block elements",
+      "F-block"
+    ],
+    "answer": "F-block"
+  },
+  {
+    "question": "Which periodic element behaves both like a Group 1A metal and like a halogen?",
+    "options": [
+      "Lithium",
+      "Helium",
+      "Hydrogen",
+      "Fluorine"
+    ],
+    "answer": "Hydrogen"
+  },
+  {
+    "question": "When the two hydrogen nuclei in a molecule spin in opposite directions, it results in the formation of ____.",
+    "options": [
+      "Ortho Hydrogen",
+      "Para Hydrogen",
+      "Heavy Hydrogen",
+      "Nascent Hydrogen"
+    ],
+    "answer": "Para Hydrogen"
+  },
+  {
+    "question": "What is the correct electronic configuration of Zinc (Zn)?",
+    "options": [
+      "1s2 2s2 2p6 3s2 3p6 3d10 4s1",
+      "1s2 2s2 2p6 3s2 3p6 4s2 4p6",
+      "1s2 2s2 2p6 3s2 3p6 3d10 4s2",
+      "1s2 2s2 2p6 3s2 3p6 3d8 4s2"
+    ],
+    "answer": "1s2 2s2 2p6 3s2 3p6 3d10 4s2"
+  },
+  {
+    "question": "Period 2 of the periodic table contains elements ranging from Lithium to ____.",
+    "options": [
+      "Helium",
+      "Argon",
+      "Neon",
+      "Krypton"
+    ],
+    "answer": "Neon"
+  },
+  {
+    "question": "How many elements are contained in Period 4 of the modern periodic table?",
+    "options": [
+      "8",
+      "18",
+      "32",
+      "2"
+    ],
+    "answer": "18"
+  },
+  {
+    "question": "Period 6 contains 32 elements, starting from ____ and ending at Radon.",
+    "options": [
+      "Rubidium",
+      "Caesium",
+      "Francium",
+      "Barium"
+    ],
+    "answer": "Caesium"
+  },
+  {
+    "question": "The d-block elements, located in the middle of the periodic table, are also commonly known as ____.",
+    "options": [
+      "Representative elements",
+      "Transition elements",
+      "Inner-transition elements",
+      "Noble metals"
+    ],
+    "answer": "Transition"
+  },
+  {
+    "question": "Both the Lanthanides and Actinides belong to the f-block and are collectively called ____ elements.",
+    "options": [
+      "Transition",
+      "Inner-transition",
+      "Representative",
+      "Noble"
+    ],
+    "answer": "Inner-transition"
+  },
+  {
+    "question": "The measure of the size of an atom, usually defined as the distance from the nucleus to the outermost shell, is known as ____.",
+    "options": [
+      "Atomic radii",
+      "Ionization potential",
+      "Electronegativity",
+      "Lattice energy"
+    ],
+    "answer": "Atomic radii"
+  },
+  {
+    "question": "The energy required to remove the least strongly bonded electron from an isolated gaseous atom in its ground state is the ____.",
+    "options": [
+      "Electron affinity",
+      "Electronegativity",
+      "Ionization energy",
+      "Activation energy"
+    ],
+    "answer": "Ionization energy"
+  },
+  {
+    "question": "The measure of the ability of an atom to accept an electron to form a negative ion (anion) is known as ____.",
+    "options": [
+      "Ionization energy",
+      "Electron affinity",
+      "Electropositivity",
+      "Bond enthalpy"
+    ],
+    "answer": "Electron affinity"
+  },
+  {
+    "question": "Atoms of the same element that have the same atomic number but different mass numbers are called ____.",
+    "options": [
+      "Allotropes",
+      "Isomers",
+      "Isotopes",
+      "Isobars"
+    ],
+    "answer": "Isotopes"
+  },
+  {
+    "question": "A mixture consisting of Carbon Monoxide (CO) and Hydrogen (H2) is commonly known as ____.",
+    "options": [
+      "Natural gas",
+      "Producer gas",
+      "Water gas",
+      "Biogas"
+    ],
+    "answer": "Water gas"
+  },
+  {
+    "question": "The process of breaking down complex hydrocarbons into simpler molecules at high temperatures with a catalyst is called ____.",
+    "options": [
+      "Hydrogenation",
+      "Cracking",
+      "Polymerization",
+      "Fractionation"
+    ],
+    "answer": "Cracking"
+  },
+  {
+    "question": "The reduction of Carbon Monoxide with Hydrogen under specific conditions yields ____.",
+    "options": [
+      "Methane",
+      "Formaldehyde",
+      "Ethylene",
+      "Carbonic acid"
+    ],
+    "answer": "Formaldehyde"
+  },
+  {
+    "question": "Because of its high energy content per unit mass, liquid hydrogen is used as ____.",
+    "options": [
+      "Cooking gas",
+      "Rocket fuel",
+      "Automobile coolant",
+      "Industrial solvent"
+    ],
+    "answer": "Rocket fuel"
+  },
+  {
+    "question": "What is the largest industrial use for hydrogen gas?",
+    "options": [
+      "Manufacture of Ammonia",
+      "Welding",
+      "Hydrogenation of oils",
+      "Metals extraction"
+    ],
+    "answer": "Ammonia"
+  },
+  {
+    "question": "Hydrogen reacts with many elements to form binary compounds known as ____.",
+    "options": [
+      "Oxides",
+      "Hydrides",
+      "Halides",
+      "Sulfides"
+    ],
+    "answer": "Hydrides"
+  },
+  {
+    "question": "Alkali metals are never found free in nature primarily because of their ____.",
+    "options": [
+      "High density",
+      "High reactivity",
+      "Low melting point",
+      "Radioactivity"
+    ],
+    "answer": "High reactivity"
+  },
+  {
+    "question": "Potassium is industrially obtained by reducing its chloride salt with ____.",
+    "options": [
+      "Magnesium",
+      "Sodium vapour",
+      "Carbon",
+      "Aluminum"
+    ],
+    "answer": "Sodium vapour"
+  },
+  {
+    "question": "Which metal compounds are used in the phosphors of color television picture tubes?",
+    "options": [
+      "Sodium and Magnesium",
+      "Lithium and Potassium",
+      "Cesium and Rubidium",
+      "Barium and Strontium"
+    ],
+    "answer": "Lithium and potassium"
+  },
+  {
+    "question": "The density of an element is determined by two primary factors: atomic weight and ____.",
+    "options": [
+      "Atomic number",
+      "Volume",
+      "Electronegativity",
+      "Ionic charge"
+    ],
+    "answer": "Volume"
+  },
+  {
+    "question": "Which group in the periodic table is known as the least electronegative?",
+    "options": [
+      "Halogens",
+      "Noble gases",
+      "Alkali metals",
+      "Alkaline earth metals"
+    ],
+    "answer": "Alkali metals"
+  },
+  {
+    "question": "Which alkali metal is the most abundant in the Earth's crust?",
+    "options": [
+      "Lithium",
+      "Sodium",
+      "Potassium",
+      "Cesium"
+    ],
+    "answer": "Sodium"
+  },
+  {
+    "question": "Normal oxides and peroxides of alkali metals share which pair of physical properties?",
+    "options": [
+      "Coloured and Paramagnetic",
+      "Colourless and Diamagnetic",
+      "Coloured and Diamagnetic",
+      "Colourless and Paramagnetic"
+    ],
+    "answer": "colourless and diamagnetic"
+  },
+  {
+    "question": "Unlike normal oxides, the superoxides of alkali metals are generally characterized as ____.",
+    "options": [
+      "Diamagnetic",
+      "Paramagnetic",
+      "Non-reactive",
+      "Acidic"
+    ],
+    "answer": "Paramagnetic"
+  },
+  {
+    "question": "The phenomenon where a metal ion is surrounded by solvent molecules is called ____.",
+    "options": [
+      "Hydrolysis",
+      "Solvation",
+      "Hydrogenation",
+      "Electrolysis"
+    ],
+    "answer": "Solvation"
+  },
+  {
+    "question": "When the solvent surrounding a metal ion is specifically water, the process is known as ____.",
+    "options": [
+      "Oxidation",
+      "Hydration",
+      "Dehydration",
+      "Carbonation"
+    ],
+    "answer": "Hydration"
+  },
+  {
+    "question": "How does the degree of hydration change for alkali metal ions as you move down the group?",
+    "options": [
+      "Increases",
+      "Decreases",
+      "Remains constant",
+      "First increases, then decreases"
+    ],
+    "answer": "Decreases"
+  },
+  {
+    "question": "Groups 1 and 2 of the periodic table collectively belong to which block?",
+    "options": [
+      "p-block",
+      "d-block",
+      "f-block",
+      "s-block"
+    ],
+    "answer": "S"
+  },
+  {
+    "question": "Which element in Group 2 (Alkaline Earth Metals) is radioactive?",
+    "options": [
+      "Barium",
+      "Strontium",
+      "Radium",
+      "Beryllium"
+    ],
+    "answer": "Radium"
+  },
+  {
+    "question": "Which Group 2 metal is used for making atomic fuel containers because it does not become radioactive when bombarded with neutrons?",
+    "options": [
+      "Magnesium",
+      "Calcium",
+      "Beryllium",
+      "Barium"
+    ],
+    "answer": "Beryllium"
+  },
+  {
+    "question": "The ionization energy of alkaline earth metals ____ on moving down the group.",
+    "options": [
+      "Increases",
+      "Decreases",
+      "Fluctuates",
+      "Stay the same"
+    ],
+    "answer": "Decreases"
+  },
+  {
+    "question": "All alkaline earth metals react with oxygen to form which type of compound?",
+    "options": [
+      "Hydrides",
+      "Chlorides",
+      "Oxides",
+      "Nitrates"
+    ],
+    "answer": "Oxides"
+  },
+  {
+    "question": "Which Group 2 element does NOT form a hydride by direct combination with hydrogen?",
+    "options": [
+      "Magnesium",
+      "Calcium",
+      "Beryllium",
+      "Strontium"
+    ],
+    "answer": "Beryllium"
+  },
+  {
+    "question": "In the chlorophyll molecule, the central Magnesium atom is coordinated by how many nitrogen atoms?",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "answer": "4"
+  },
+  {
+    "question": "Which Group 2 metal is often not classified as an alkaline earth metal because its oxide is amphoteric rather than alkaline?",
+    "options": [
+      "Magnesium",
+      "Beryllium",
+      "Calcium",
+      "Strontium"
+    ],
+    "answer": "Beryllium"
+  },
+  {
+    "question": "Group 2A elements are called alkaline earth metals because they react with oxygen to form ____.",
+    "options": [
+      "Hydrides",
+      "Oxides",
+      "Hydroxides",
+      "Peroxides"
+    ],
+    "answer": "Oxides"
+  },
+  {
+    "question": "How many valence electrons do alkaline earth metals possess in their outermost shell?",
+    "options": [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+    ],
+    "answer": "Two"
+  },
+  {
+    "question": "Alkaline earth metals typically form ions with what electrical charge?",
+    "options": [
+      "+1",
+      "+2",
+      "-1",
+      "-2"
+    ],
+    "answer": "+2"
+  },
+  {
+    "question": "The polarizing power of a cation is ____ proportional to its size.",
+    "options": [
+      "Directly",
+      "Inversely",
+      "Not",
+      "Exponentially"
+    ],
+    "answer": "inversely"
+  },
+  {
+    "question": "Group 1 metals are commonly known by which name?",
+    "options": [
+      "Alkaline earth metals",
+      "Alkali metals",
+      "Transition metals",
+      "Halogens"
+    ],
+    "answer": "alkaline metals"
+  },
+  {
+    "question": "In 1864, which English chemist reported the 'Law of Octaves' regarding the periodicity of elements?",
+    "options": [
+      "Dmitri Mendeleev",
+      "John Newlands",
+      "Lothar Meyer",
+      "Henry Moseley"
+    ],
+    "answer": "John Newlands"
+  },
+  {
+    "question": "If elements are arranged sequentially in order of increasing ____, a periodic repetition in properties is observed.",
+    "options": [
+      "Atomic number",
+      "Atomic mass",
+      "Atomic volume",
+      "Density"
+    ],
+    "answer": "Atomic"
+  },
+  {
+    "question": "The modern periodic law states that the properties of elements are periodic functions of their ____.",
+    "options": [
+      "Atomic weights",
+      "Atomic numbers",
+      "Neutron counts",
+      "Mass numbers"
+    ],
+    "answer": "periodic"
+  },
+  {
+    "question": "What is the systematic IUPAC name for the element with atomic number 105?",
+    "options": [
+      "Unnilquadium",
+      "Unnilpentium",
+      "Unnilhexium",
+      "Unnilseptium"
+    ],
+    "answer": "Unnilpentium"
+  },
+  {
+    "question": "Which principle states that no two electrons in the same atom can have the same set of four quantum numbers ($n, l, m_l, m_s$)?",
+    "options": [
+      "Hund's Rule",
+      "Aufbau Principle",
+      "Pauli Exclusion Principle",
+      "Heisenberg Uncertainty Principle"
+    ],
+    "answer": "Exclusion principle"
+  },
+  {
+    "question": "According to ____, every orbital in a subshell is singly occupied before any orbital is doubly occupied.",
+    "options": [
+      "Hund's Rule",
+      "Pauli's Principle",
+      "The Octet Rule",
+      "Avogadro's Law"
+    ],
+    "answer": "Hunds"
+  },
+  {
+    "question": "Elements located in the same horizontal row (period) of the periodic table always have the same number of ____.",
+    "options": [
+      "Valence electrons",
+      "Protons",
+      "Electron shells",
+      "Neutrons"
+    ],
+    "answer": "Shell"
+  },
+  {
+    "question": "Elements in the same vertical column (group) have the same number of ____, which determines their chemical reactivity.",
+    "options": [
+      "Core electrons",
+      "Valence electrons",
+      "Isotopes",
+      "Subatomic particles"
+    ],
+    "answer": "Valence electrons"
+  },
+  {
+    "question": "What is the electronic configuration of an atom with an atomic number of 9 (Fluorine)?",
+    "options": [
+      "1s2 2s2 2p6",
+      "1s2 2s2 2p5",
+      "1s2 2s2 2p4",
+      "1s2 2s1 2p6"
+    ],
+    "answer": "1s2 2s2 2p5"
+  },
+  {
+    "question": "The ionic radii of metallic cations are generally ____ than their corresponding neutral atomic radii.",
+    "options": [
+      "Bigger",
+      "Smaller",
+      "The same size",
+      "Unpredictable"
+    ],
+    "answer": "Smaller"
+  },
+  {
+    "question": "The ionic radii of non-metallic anions are generally ____ than their corresponding neutral atomic radii.",
+    "options": [
+      "Smaller",
+      "Bigger",
+      "The same size",
+      "Variable"
+    ],
+    "answer": "Bigger"
+  },
+  {
+    "question": "How does Electron Affinity typically change as you move from left to right across a period?",
+    "options": [
+      "Decreases",
+      "Increases",
+      "Stays the same",
+      "Decreases then increases"
+    ],
+    "answer": "Increases"
+  },
+  {
+    "question": "Complete the following reaction: $Na_2C_2 + 2H_2O \\rightarrow 2NaOH + \\dots$",
+    "options": [
+      "$CH_4$",
+      "$C_2H_2$",
+      "$CO_2$",
+      "$C_2H_6$"
+    ],
+    "answer": "C2H2"
+  },
+  {
+    "question": "When Lithium carbonate ($Li_2CO_3$) is decomposed by heat, it yields Carbon dioxide ($CO_2$) and ____.",
+    "options": [
+      "$Li_2O$",
+      "$LiOH$",
+      "$LiH$",
+      "$LiO_2$"
+    ],
+    "answer": "Li2O"
+  },
+  {
+    "question": "Potassium superoxide ($KO_2$) is a characteristic example of a ____ oxide.",
+    "options": [
+      "Normal",
+      "Peroxide",
       "Super",
-      "Micro",
-      "Mini",
-      "Main Frame"
+      "Suboxide"
     ],
-    "answer": "Mini"
+    "answer": "Super"
   },
   {
-    "question": "The ____ are often called number crunchers, have memory capacity of the order of 4 K bytes, and they are very expensive.",
+    "question": "In a solution, electrons that become associated with and stabilized by solvent molecules are called ____ electrons.",
     "options": [
-      "Microcomputers",
-      "Minicomputers",
-      "Supercomputers",
-      "Main Frame Computers"
+      "Free",
+      "Valence",
+      "Solvated",
+      "Delocalized"
     ],
-    "answer": "Supercomputers"
+    "answer": "Solvated"
   },
   {
-    "question": "The Main Frame Computer is otherwise called ____.",
+    "question": "Which alkaline earth metal is essential for the structural formation and maintenance of bones and teeth?",
     "options": [
-      "microprocessor",
-      "number crunches",
-      "server unit",
-      "personal computer"
+      "Beryllium",
+      "Magnesium",
+      "Strontium",
+      "Barium"
     ],
-    "answer": "number crunches"
+    "answer": "Magnesium"
   },
   {
-    "question": "One of the biggest fears of having computers is the threat of ____.",
+    "question": "Complete the reaction representing the 'milky' precipitate in the lime water test: $Ca(OH)_2 + CO_2 \\rightarrow \\dots + H_2O$",
     "options": [
-      "obsolescence",
-      "power fluctuations",
-      "viruses",
-      "hardware failure"
+      "$CaO$",
+      "$CaCO_3$",
+      "$Ca(HCO_3)_2$",
+      "$CaCl_2$"
     ],
-    "answer": "viruses"
+    "answer": "CaCO3"
   },
   {
-    "question": "____ are malicious programs created by programming or computer experts to harm systems.",
+    "question": "Complex formation is favored by cations that are ____ and highly charged, providing suitable empty orbitals for ligands.",
     "options": [
-      "Hardware drivers",
-      "Utility programs",
-      "Viruses",
-      "Operating systems"
+      "Large",
+      "Small",
+      "Neutral",
+      "Gaseous"
     ],
-    "answer": "Viruses"
+    "answer": "small"
   },
   {
-    "question": "The ____ is one of the greatest threats to computers and computer applications.",
+    "question": "In the chlorophyll molecule, the central metal atom is coordinated to four nitrogen atoms in the heterocyclic porphyrin ring system. Which metal is this?",
     "options": [
-      "Computer mouse",
-      "Computer virus",
-      "Computer monitor",
-      "Printer"
+      "Calcium",
+      "Magnesium",
+      "Iron",
+      "Copper"
     ],
-    "answer": "Computer virus"
+    "answer": "Magnesium"
   },
   {
-    "question": "The ____ is the main unit of a personal computer (PC) that houses the primary components.",
+    "question": "How do the hydrated ionic radii of alkali metal ions change as you move down the group from Lithium to Cesium?",
     "options": [
-      "monitor",
-      "system unit",
-      "keyboard",
-      "power cord"
+      "Increases",
+      "Decreases",
+      "Remains constant",
+      "Increases then decreases"
     ],
-    "answer": "system unit"
+    "answer": "Decreases"
   },
   {
-    "question": "When a computer is switched on and running a program, ____ is used for purposes such as holding the program and its data.",
+    "question": "The tendency to form complexes among alkaline earth metals ____ with increasing atomic number.",
     "options": [
-      "ROM (Read Only Memory)",
-      "RAM (Random Access Memory)",
-      "Hard Disk Drive (HDD)",
-      "Solid State Drive (SSD)"
+      "Increases",
+      "Decreases",
+      "Stays the same",
+      "Increases exponentially"
     ],
-    "answer": "RAM (Random Access Memory)"
+    "answer": "Decreases"
   },
   {
-    "question": "The ____ emits the computer’s sound output.",
+    "question": "The density of alkaline earth metals decreases from Beryllium to Calcium, but ____ considerably thereafter up to Radium.",
     "options": [
-      "microphone",
-      "modem",
-      "speaker",
-      "scanner"
+      "Increases",
+      "Decreases",
+      "Plateaus",
+      "Becomes zero"
     ],
-    "answer": "Speaker"
+    "answer": "Increases"
   },
   {
-    "question": "The ____ is the computer’s most important single item, responsible for executing instructions.",
+    "question": "What is the systematic IUPAC name for the element with atomic number 102?",
     "options": [
-      "Motherboard",
-      "Microprocessor or Central Processing Unit (CPU)",
-      "Hard Drive",
-      "Graphics Card"
+      "Unnilunium",
+      "Unnilbium",
+      "Unniltrium",
+      "Unnilquadium"
     ],
-    "answer": "Microprocessor or Central Processing Unit (CPU)"
+    "answer": "Unilbium"
   },
   {
-    "question": "The ____ is the computer’s main permanent storage unit, holding large amounts of data and programs.",
+    "question": "Which of the following metallic cations is isoelectronic with the Aluminum ion ($Al^{3+}$)?",
     "options": [
-      "RAM (Random Access Memory)",
-      "hard disk",
-      "CPU (Central Processing Unit)",
-      "Cache"
+      "$Na^+$",
+      "$Mg^{2+}$",
+      "$Ca^{2+}$",
+      "$Li^+$"
     ],
-    "answer": "hard disk"
+    "answer": "Mg2+"
   },
   {
-    "question": "All the electronic components in a PC are mounted on a piece of fiberglass called the ____.",
-    "options": [
-      "processor",
-      "power supply",
-      "motherboard",
-      "expansion card"
-    ],
-    "answer": "motherboard"
-  },
-  {
-    "question": "Assess the following statement: 'Fiberglass cannot conduct electricity.'",
-    "options": [
-      "True",
-      "False",
-      "Only when heated",
-      "Only when wet"
-    ],
-    "answer": "True"
-  },
-  {
-    "question": "Computers use disk to store ____.",
-    "options": [
-      "electricity",
-      "air pressure",
-      "heat",
-      "Information"
-    ],
-    "answer": "Information"
-  },
-  {
-    "question": "There are ____ main varieties of disks available for data storage.",
-    "options": [
-      "Two",
-      "Three",
-      "Four",
-      "Five"
-    ],
-    "answer": "Four"
-  },
-  {
-    "question": "The ____ computer devices are those devices which are attached to the system unit, but are not essential to the central operation of the CPU.",
-    "options": [
-      "Integrated",
-      "Peripheral",
-      "Core",
-      "Internal"
-    ],
-    "answer": "Peripheral"
-  },
-  {
-    "question": "The ____ key activates the numeric keypad.",
-    "options": [
-      "Shift",
-      "Ctrl",
-      "Numlock",
-      "Tab"
-    ],
-    "answer": "Numlock"
-  },
-  {
-    "question": "The ____ key is often used in most text modes to perform block operations like mass deletion, insertion, and so on.",
-    "options": [
-      "Enter",
-      "Shift",
-      "Control",
-      "Alt"
-    ],
-    "answer": "Control"
-  },
-  {
-    "question": "The ____ key is used to cancel an operation in progress or close a dialog box.",
-    "options": [
-      "Tab",
-      "Return",
-      "Escape",
-      "Insert"
-    ],
-    "answer": "Escape"
-  },
-  {
-    "question": "The ____ key is actually used to inform the computer the end of an input or command.",
-    "options": [
-      "Delete",
-      "Shift",
-      "Return",
-      "Backspace"
-    ],
-    "answer": "Return"
-  },
-  {
-    "question": "The ____ key deletes the character at the cursor position when pressed, and the remaining text moves to the left.",
-    "options": [
-      "Backspace",
-      "Delete",
-      "Control",
-      "Alt"
-    ],
-    "answer": "Delete"
-  },
-  {
-    "question": "The ____ Key deletes the characters to the left of the cursor when pressed, and all other characters to the right of the cursor are shifted one space to the left.",
-    "options": [
-      "Insert",
-      "Delete",
-      "Backspace",
-      "Control"
-    ],
-    "answer": "Backspace"
-  },
-  {
-    "question": "The ____ is the longest key found on most keyboards and it erases characters at the cursor position or gives a blank space when pressed.",
-    "options": [
-      "Return Key",
-      "Shift Key",
-      "Spacebar",
-      "Control Key"
-    ],
-    "answer": "Spacebar"
-  },
-  {
-    "question": "The ____ Key moves the cursor by several spaces (often five or eight) to the right when pressed, or moves between fields in a form.",
-    "options": [
-      "Spacebar",
-      "Tab",
-      "Alt",
-      "Insert"
-    ],
-    "answer": "Tab"
-  },
-  {
-    "question": "A ____ is the primary input device for modern computers that feature operating systems with a graphical user interface.",
-    "options": [
-      "Keyboard",
-      "Mouse",
-      "Scanner",
-      "Joystick"
-    ],
-    "answer": "Mouse"
-  },
-  {
-    "question": "____ are used with game software and help the user more effectively control the actions of computer-simulated airplanes or arcade-style games.",
-    "options": [
-      "Trackballs",
-      "Keyboards",
-      "Joysticks",
-      "Mice"
-    ],
-    "answer": "Joysticks"
-  },
-  {
-    "question": "All modern PC operating systems rely on an ____ pointer to select and execute commands.",
-    "options": [
-      "off-screen",
-      "on-screen",
-      "physical",
-      "virtual"
-    ],
-    "answer": "on-screen"
-  },
-  {
-    "question": "A ____ is simply an input device built to help the user control the on-screen pointer in as natural and efficient a manner as possible.",
-    "options": [
-      "keyboard",
-      "scanner",
-      "Mouse",
-      "touchpad"
-    ],
-    "answer": "Mouse"
-  },
-  {
-    "question": "The ____ on the computer screen mimics the movements of the mouse.",
-    "options": [
-      "Window",
-      "Icon",
-      "Pointer",
-      "Menu"
-    ],
-    "answer": "Pointer"
-  },
-  {
-    "question": "The pointer on the computer screen mimics the movements of the ____.",
-    "options": [
-      "keyboard",
-      "user's finger",
-      "Monitor",
-      "Mouse"
-    ],
-    "answer": "Mouse"
-  },
-  {
-    "question": "The mouse controls the on-screen pointer and lets you select program icons, manipulate property sheets, and ____.",
-    "options": [
-      "input alphanumeric characters",
-      "access data",
-      "print documents automatically",
-      "power down the system"
-    ],
-    "answer": "access data"
-  },
-  {
-    "question": "A ____ is the computer component that lets you create copies of the information stored in your computer on paper.",
-    "options": [
-      "Monitor",
-      "Hard Disk",
-      "Printer",
-      "Scanner"
-    ],
-    "answer": "Printer"
-  },
-  {
-    "question": "A printed material, such as a document or image on paper, is often called ____.",
-    "options": [
-      "soft copy",
-      "digital file",
-      "hard copy",
-      "text mode"
-    ],
-    "answer": "hard copy"
-  },
-  {
-    "question": "____ combine a magnetic roller with powdered ink called toner to transfer high-quality characters or images onto a page.",
-    "options": [
-      "Inkjet printers",
-      "Dot-matrix printers",
-      "Laser printers",
-      "Thermal printers"
-    ],
-    "answer": "Laser printers"
-  },
-  {
-    "question": "____ printers have small nozzles that actually spray fast-drying ink onto the page to form characters or images.",
-    "options": [
-      "Dot-matrix",
-      "Inkjet",
-      "Laser",
-      "Thermal"
-    ],
-    "answer": "Inkjet"
-  },
-  {
-    "question": "____ printers use a print head to strike an inked ribbon against paper, like a typewriter, creating characters out of a series of dots.",
-    "options": [
-      "Laser",
-      "Inkjet",
-      "Dot-matrix",
-      "Thermal"
-    ],
-    "answer": "Dot-matrix"
-  },
-  {
-    "question": "The cheapest printers available in the market are ____ printers.",
-    "options": [
-      "Inkjet",
-      "Laser",
-      "Dot-matrix",
-      "Plotter"
-    ],
-    "answer": "Dot-matrix"
-  },
-  {
-    "question": "The two most common monitor sizes (based on historical standards) are ____.",
-    "options": [
-      "10-inch and 12-inch",
-      "15-inch and 17-inch",
-      "21-inch and 24-inch",
-      "27-inch and 32-inch"
-    ],
-    "answer": "15-inch and 17-inch"
-  },
-  {
-    "question": "____ are peripheral devices used to digitize (convert to electronic format) artwork, photographs, text, or other items from hard copy.",
-    "options": [
-      "Printers",
-      "Monitors",
-      "Scanners",
-      "Plotters"
-    ],
-    "answer": "Scanners"
-  },
-  {
-    "question": "A ____ works by dividing an image into microscopic rows and columns and measuring, like the film in a camera, how much light reflects from each individual intersection of the rows and columns.",
-    "options": [
-      "monitor",
-      "camera lens",
-      "Scanner",
-      "digitizing tablet"
-    ],
-    "answer": "Scanner"
-  },
-  {
-    "question": "____ scanners look and behave a lot like a photocopier.",
-    "options": [
-      "Sheetfed",
-      "Handheld",
-      "Flatbed",
-      "Drum"
-    ],
-    "answer": "Flatbed"
-  },
-  {
-    "question": "OCR is the acronym for ____.",
-    "options": [
-      "Output Code Reader",
-      "Optical Color Resolution",
-      "Optical Character Recognition",
-      "Online Configuration and Registration"
-    ],
-    "answer": "Optical Character Recognition"
-  },
-  {
-    "question": "____ scanners look and act more like fax machines, feeding the paper through the scanning mechanism.",
-    "options": [
-      "Flatbed",
-      "Drum",
-      "Sheetfed",
-      "Handheld"
-    ],
-    "answer": "Sheetfed"
-  },
-  {
-    "question": "A ____ is a good choice for large volumes of text, but not for handling delicate original photographs.",
-    "options": [
-      "flatbed scanner",
-      "drum scanner",
-      "sheetfed scanner",
-      "handheld scanner"
-    ],
-    "answer": "sheetfed scanner"
-  },
-  {
-    "question": "UPS is the acronym for ____.",
-    "options": [
-      "Universal Power Standard",
-      "Utility Power Service",
-      "Unified Program System",
-      "Uninterruptible Power Supply System"
-    ],
-    "answer": "Uninterruptible Power Supply System"
-  },
-  {
-    "question": "A Computer is an ____ machine.",
-    "options": [
-      "Mechanical",
-      "Analog",
-      "Hydraulic",
-      "Electronic"
-    ],
-    "answer": "Electronic"
-  },
-  {
-    "question": "The computer hardware are driven by the ____.",
-    "options": [
-      "Operating System only",
-      "Peripheral Devices",
-      "Software",
-      "Power Supply"
-    ],
-    "answer": "Software"
-  },
-  {
-    "question": "The physical components of the computer are called the ____.",
-    "options": [
-      "software",
-      "data",
-      "information",
-      "hardware"
-    ],
-    "answer": "hardware"
-  },
-  {
-    "question": "A ____ is a series of coded instructions showing the logical steps the computer follows to solve a given problem.",
-    "options": [
-      "Utility",
-      "Program",
-      "Protocol",
-      "Data Structure"
-    ],
-    "answer": "Program"
-  },
-  {
-    "question": "The computer software could be divided into two major groups: System Software and ____.",
-    "options": [
-      "Hardware Drivers",
-      "Utility Programs",
-      "Application Software",
-      "Firmware"
-    ],
-    "answer": "Application Software"
-  },
-  {
-    "question": "____ refers to the suite of programs that facilitates the optimal use of the hardware systems and provides a suitable environment for the writing, editing, and running of user programs.",
-    "options": [
-      "Application Software",
-      "System Software",
-      "Utility Software",
-      "Network Protocols"
-    ],
-    "answer": "System Software"
-  },
-  {
-    "question": "An ____ is a program that acts as an interface between a user of a computer and the computer hardware.",
-    "options": [
-      "application program",
-      "utility program",
-      "driver program",
-      "operating system"
-    ],
-    "answer": "operating system"
-  },
-  {
-    "question": "The purpose of an ____ is to provide an environment in which a user may execute programs.",
-    "options": [
-      "application program",
-      "network card",
-      "storage device",
-      "operating system"
-    ],
-    "answer": "operating system"
-  },
-  {
-    "question": "The purpose of an operating system is to provide an environment in which a user may ____ programs.",
-    "options": [
-      "develop",
-      "document",
-      "purchase",
-      "execute"
-    ],
-    "answer": "execute"
-  },
-  {
-    "question": "____ are programs written for direct execution on computer hardware in order to make the power of the computer fully and efficiently accessible to applications programmers and other computer users.",
-    "options": [
-      "Utility Programs",
-      "Application Programs",
-      "Systems programs",
-      "Hardware Drivers"
-    ],
-    "answer": "Systems programs"
-  },
-  {
-    "question": "Operating systems which handle time-critical tasks like airline reservations, machine tool control, and monitoring of a nuclear power station are called ____.",
-    "options": [
-      "Batch OS",
-      "Time-sharing OS",
-      "Real time OS",
-      "Single-user OS"
-    ],
-    "answer": "Real time OS"
-  },
-  {
-    "question": "A ____ is a system that allows more than one active user program (or part of a user program) to be stored in main memory simultaneously.",
-    "options": [
-      "single-programming operating system",
-      "multiprogramming operating system",
-      "single-tasking system",
-      "uniprocessor system"
-    ],
-    "answer": "multiprogramming operating system"
-  },
-  {
-    "question": "A ____ is a computer hardware configuration that includes more than one independent processing unit (CPU).",
-    "options": [
-      "single-processor system",
-      "multitasking system",
-      "multiprocessing system",
-      "networked system"
-    ],
-    "answer": "multiprocessing system"
-  },
-  {
-    "question": "A ____ is one that appears to its users as a traditional uniprocessor system, even though it is actually composed of multiple, interconnected processors.",
-    "options": [
-      "centralized operating system",
-      "single-user system",
-      "distributed operating system",
-      "real time operating system"
-    ],
-    "answer": "distributed operating system"
-  },
-  {
-    "question": "An ____ provides the environment within which programs are executed.",
-    "options": [
-      "application software",
-      "network interface",
-      "device driver",
-      "operating system"
-    ],
-    "answer": "operating system"
-  },
-  {
-    "question": "A ____ is the unit of work in a system, often corresponding to an active program.",
-    "options": [
-      "thread",
-      "file",
-      "Process",
-      "task scheduler"
-    ],
-    "answer": "Process"
-  },
-  {
-    "question": "A ____ provides the user with access to the various resources the system maintains across multiple interconnected computers.",
-    "options": [
-      "centralized system",
-      "single-user system",
-      "distributed system",
-      "time-sharing system"
-    ],
-    "answer": "distributed system"
-  },
-  {
-    "question": "The ____ is the primary interface between the user and the rest of the operating system, allowing users to issue commands.",
-    "options": [
-      "kernel",
-      "file system",
-      "command interpreter",
-      "processor"
-    ],
-    "answer": "command interpreter"
-  },
-  {
-    "question": "A ____ is a set of notations in which we express our instructions to the computer.",
-    "options": [
-      "syntax rule",
-      "data structure",
-      "programming language",
-      "protocol"
-    ],
-    "answer": "programming language"
-  },
-  {
-    "question": "The initial program written in a language different from machine language is called the source program, and its equivalent in machine language is called the object program. The tool that performs this conversion is called a ____.",
-    "options": [
-      "Code Debugger",
-      "Compiler",
-      "Language Translator",
-      "Linker"
-    ],
-    "answer": "Language Translator"
-  },
-  {
-    "question": "Three examples of classes of language translators are Assemblers, Interpreters, and ____.",
-    "options": [
-      "Editors",
-      "Compilers",
-      "Debuggers",
-      "Linkers"
-    ],
-    "answer": "Compilers"
-  },
-  {
-    "question": "An ____ is a computer program that accepts a source program in assembly language, reads and translates the entire program into an equivalent program in machine language called the object program.",
-    "options": [
-      "Interpreter",
-      "Compiler",
-      "Assembler",
-      "Loader"
-    ],
-    "answer": "Assembler"
-  },
-  {
-    "question": "An ____ is a program that accepts a program in a source language, reads, translates, and executes it, line by line, into machine language.",
-    "options": [
-      "Assembler",
-      "Compiler",
-      "Interpreter",
-      "Debugger"
-    ],
-    "answer": "An Interpreter"
-  },
-  {
-    "question": "A ____ is a computer program that accepts a source program in one high-level language, reads and translates the entire user’s program into an equivalent program in machine language, called the object program or object code.",
-    "options": [
-      "Assembler",
-      "Interpreter",
-      "Compiler",
-      "Linker"
-    ],
-    "answer": "Compiler"
-  },
-  {
-    "question": "____ is a set of programs designed to solve problems of a specific nature, such as accounting, word processing, or gaming.",
-    "options": [
-      "System software",
-      "Utility software",
-      "Application software",
-      "Firmware"
-    ],
-    "answer": "Application software"
-  },
-  {
-    "question": "A ____ is used to create, edit, save, and print reports.",
-    "options": [
-      "Spreadsheet program",
-      "Database management system",
-      "Word Processor",
-      "Operating System"
-    ],
-    "answer": "Word Processor"
-  },
-  {
-    "question": "A Word Processor is used to ____, edit, save, and print reports.",
-    "options": [
-      "compile",
-      "debug",
-      "execute",
-      "create"
-    ],
-    "answer": "create"
-  },
-  {
-    "question": "A Word Processor is used to create, ____, save, and print reports.",
-    "options": [
-      "compile",
-      "execute",
-      "edit",
-      "translate"
-    ],
-    "answer": "edit"
-  },
-  {
-    "question": "A Word Processor is used to create, edit, ____, and print reports.",
-    "options": [
-      "link",
-      "save",
-      "debug",
-      "run"
-    ],
-    "answer": "save"
-  },
-  {
-    "question": "A Word Processor is used to create, edit, save, and ____ reports.",
-    "options": [
-      "scan",
-      "email",
-      "print",
-      "calculate"
-    ],
-    "answer": "print"
-  },
-  {
-    "question": "The primary functions of a Word Processor are to create, edit, save, and ____.",
-    "options": [
-      "calculate data",
-      "manage databases",
-      "print reports",
-      "compile code"
-    ],
-    "answer": "print reports"
-  },
-  {
-    "question": "Assess the following statement: 'A document can be printed as many times as possible.'",
-    "options": [
-      "True",
-      "False",
-      "Only twice",
-      "Only if saved as a PDF"
-    ],
-    "answer": "True"
-  },
-  {
-    "question": "____ is an application mainly designed for numerical figures and reports, utilizing a grid of rows and columns.",
-    "options": [
-      "Word Processor",
-      "Database Program",
-      "Spreadsheet",
-      "Graphic Package"
-    ],
-    "answer": "Spreadsheet"
-  },
-  {
-    "question": "____ are packages that enable you to bring out images, diagrams, and pictures.",
-    "options": [
-      "Word Processors",
-      "Spreadsheets",
-      "Graphic Packages",
-      "Database Systems"
-    ],
-    "answer": "Graphic Packages"
-  },
-  {
-    "question": "Which of the following is an example of a popular Graphic Package?",
-    "options": [
-      "MS Excel",
-      "Adobe Photoshop",
-      "MS Access",
-      "SPSS"
-    ],
-    "answer": "Adobe Photoshop"
-  },
-  {
-    "question": "____ software is used for designing, setting up, and subsequently managing a database.",
-    "options": [
-      "Word Processing",
-      "Spreadsheet",
-      "Database Packages",
-      "Presentation"
-    ],
-    "answer": "Database Packages"
-  },
-  {
-    "question": "A ____ is an organized collection of data that allows for modification while taking care of different users' views.",
-    "options": [
-      "Spreadsheet",
-      "File System",
-      "Database",
-      "Document"
-    ],
-    "answer": "Database"
-  },
-  {
-    "question": "Which of the following is an example of a Database Package?",
-    "options": [
-      "Adobe Illustrator",
-      "MS-Access",
-      "STATGRAPHICS",
-      "CorelDRAW"
-    ],
-    "answer": "MS-Access"
-  },
-  {
-    "question": "____ are packages that can be used to solve statistical problems, such as SPSS (Statistical Packages for Social Scientists).",
-    "options": [
-      "Database Packages",
-      "Statistical Packages",
-      "Graphics Packages",
-      "Word Processors"
-    ],
-    "answer": "Statistical Packages"
-  },
-  {
-    "question": "____ are packages that can be used to produce books and documents in standard professional form, ready for printing.",
-    "options": [
-      "Word Processing",
-      "Spreadsheets",
-      "Desktop Publishing",
-      "Database Management"
-    ],
-    "answer": "Desktop Publishing"
-  },
-  {
-    "question": "____ are packages that contain a variety of entertainment applications (games) for children and adults.",
-    "options": [
-      "Utility Packages",
-      "Productivity Suites",
-      "Game Packages",
-      "Development Tools"
-    ],
-    "answer": "Game Packages"
-  },
-  {
-    "question": "There are ____ basic types of instructions that a computer processor typically executes.",
-    "options": [
-      "Two",
-      "Three",
-      "Four",
-      "Five"
-    ],
-    "answer": "Four"
-  },
-  {
-    "question": "A ____ allows the programmer to take advantage of all the features and capabilities of the computer system for which it was designed, without any intermediary translation.",
-    "options": [
-      "high-level language program",
-      "assembly language program",
-      "machine language program",
-      "scripting language program"
-    ],
-    "answer": "machine language program"
-  },
-  {
-    "question": "A ____ language is computer dependent.",
-    "options": [
-      "high-level",
-      "procedural",
-      "Machine",
-      "object-oriented"
-    ],
-    "answer": "Machine"
-  },
-  {
-    "question": "A machine language is ____ dependent.",
-    "options": [
-      "user",
-      "network",
-      "program",
-      "Computer"
-    ],
-    "answer": "Computer"
-  },
-  {
-    "question": "A ____ is a graphical representation of the major steps of work in process or a program.",
-    "options": [
-      "Process map",
-      "Gantt chart",
-      "Flowchart",
-      "UML diagram"
-    ],
-    "answer": "Flowchart"
-  },
-  {
-    "question": "A flowchart is a ____ representation of the major steps of work in process.",
-    "options": [
-      "textual",
-      "tabular",
-      "graphical",
-      "numerical"
-    ],
-    "answer": "graphical"
-  },
-  {
-    "question": "____ displays in separate boxes the essential steps of the program and shows by means of arrows the directions of information flow.",
-    "options": [
-      "Pseudocode",
-      "Source Code",
-      "Flowchart",
-      "Data Dictionary"
-    ],
-    "answer": "Flowchart"
-  },
-  {
-    "question": "A ____ can be said to be a graphical representation of an algorithm, that is, it is a visual picture which gives the steps of an algorithm and also the flow of control between the various steps.",
-    "options": [
-      "pseudocode listing",
-      "data structure",
-      "flowchart",
-      "class diagram"
-    ],
-    "answer": "flowchart"
-  },
-  {
-    "question": "An ____ is a set of rules for carrying out a calculation either by hand or a machine.",
-    "options": [
-      "Process",
-      "Algorithm",
-      "Program",
-      "Data Structure"
-    ],
-    "answer": "Algorithm"
-  },
-  {
-    "question": "Flowcharts are typically read and interpreted from top to ____.",
-    "options": [
-      "left",
-      "right",
-      "bottom",
-      "middle"
-    ],
-    "answer": "bottom"
-  },
-  {
-    "question": "An ____ is a finite step-by-step procedure to achieve a required result, or a sequence of computational steps that transform input into output.",
-    "options": [
-      "Application",
-      "Algorithm",
-      "System Call",
-      "Program Loop"
-    ],
-    "answer": "Algorithm"
-  },
-  {
-    "question": "____ is a program design aid that serves the function of a flowchart in expressing the detailed logic of a program using plain language statements.",
-    "options": [
-      "Source Code",
-      "Pseudocode",
-      "Assembly Language",
-      "Algorithm Diagram"
-    ],
-    "answer": "Pseudocode"
-  },
-  {
-    "question": "____ is the use of computers to create, revise, and save documents for printing and future retrieval.",
-    "options": [
-      "Data Processing",
-      "Word processing",
-      "Database Management",
-      "Spreadsheet Analysis"
-    ],
-    "answer": "Word processing"
-  },
-  {
-    "question": "Information can be entered into the computer by using a ____.",
-    "options": [
-      "Printer",
-      "Monitor",
-      "Keyboard",
-      "Speaker"
-    ],
-    "answer": "Keyboard"
-  },
-  {
-    "question": "You enter ____ into the computer by using a keyboard.",
-    "options": [
-      "Voltage",
-      "Heat",
-      "Air Pressure",
-      "Information"
-    ],
-    "answer": "Information"
-  },
-  {
-    "question": "You enter information into the computer by using a ____.",
-    "options": [
-      "Monitor",
-      "Mouse",
-      "keyboard",
-      "System Unit"
-    ],
-    "answer": "keyboard"
-  },
-  {
-    "question": "____ enable you to change information easily without retyping entire documents.",
-    "options": [
-      "Database packages",
-      "Word processors",
-      "Compilers",
-      "Scanners"
-    ],
-    "answer": "Word processors"
-  },
-  {
-    "question": "The term WYSIWYG (What-You-See-Is-What-You-Get) is commonly associated with which application type?",
-    "options": [
-      "Database management systems",
-      "Programming compilers",
-      "Word processors",
-      "Network protocols"
-    ],
-    "answer": "Word processors"
-  },
-  {
-    "question": "To create a brand new, empty document in a word processing program, a user typically clicks on the ____ option.",
-    "options": [
-      "Open Recent Document",
-      "Save As",
-      "New Blank Document",
-      "Print Setup"
-    ],
-    "answer": "New Blank Document"
-  },
-  {
-    "question": "Every document created in a word processor has a ____ where the content (text, images, etc.) is placed.",
-    "options": [
-      "command line",
-      "text area",
-      "status bar",
-      "toolbar"
-    ],
-    "answer": "text area"
-  },
-  {
-    "question": "A ____ program provides facilities to edit documents, define their layout, and enable them to be printed.",
-    "options": [
-      "database management",
-      "spreadsheet",
-      "word processing",
-      "graphic design"
-    ],
-    "answer": "word processing"
-  },
-  {
-    "question": "____ is the use of computers to create, revise, and save documents for printing and future retrieval.",
-    "options": [
-      "Data Processing",
-      "Spreadsheet Analysis",
-      "Word processing",
-      "Database Management"
-    ],
-    "answer": "Word processing"
-  },
-  {
-    "question": "____ make it easier to align text precisely within a document.",
-    "options": [
-      "Headers",
-      "Footers",
-      "Margins",
-      "Tabs"
-    ],
-    "answer": "Tabs"
-  },
-  {
-    "question": "In a word processor, tab stops are commonly preset at ____ cm increments.",
+    "question": "What is the effective nuclear charge ($Z_{eff}$) value for Potassium ($^{19}K$)?",
     "options": [
       "1.00",
-      "1.27",
-      "1.50",
-      "2.00"
+      "2.20",
+      "3.30",
+      "4.10"
     ],
-    "answer": "1.27"
+    "answer": "2.20"
   },
   {
-    "question": "By pressing the ____ key, you can delete the character or space immediately to the left of the insertion point.",
+    "question": "Alkaline earth metals (Group 2) typically form ions with which electrical charge?",
     "options": [
-      "Delete",
-      "Insert",
-      "Backspace",
-      "Ctrl"
+      "+1",
+      "+2",
+      "+3",
+      "-2"
     ],
-    "answer": "Backspace"
+    "answer": "+2"
   },
   {
-    "question": "Word processors can suggest the complete word or phrase after you type the first few letters. This time-saving feature is called ____.",
+    "question": "Which of the following elements is NOT classified as an alkaline earth metal?",
     "options": [
-      "Spell Check",
-      "AutoCorrect",
-      "AutoComplete",
-      "Grammar Check"
+      "Strontium",
+      "Barium",
+      "Zirconium",
+      "Beryllium"
     ],
-    "answer": "AutoComplete"
+    "answer": "zirconium"
   },
   {
-    "question": "Text files can be created and modified with the aid of a special program called an ____.",
+    "question": "The classification of elements into 'Triads' based on their properties was first proposed by which chemist?",
     "options": [
-      "Compiler",
-      "Linker",
-      "Editor",
-      "Assembler"
+      "Newlands",
+      "Dobereiner",
+      "Mendeleev",
+      "Moseley"
     ],
-    "answer": "Editor"
+    "answer": "Dobereiner"
   },
   {
-    "question": "The Windows environment provides a temporary storage area for cut or copied data called the ____.",
+    "question": "Who classified elements according to increasing atomic weight on a line spiraling around a cylinder, known as the 'telluric helix'?",
     "options": [
-      "Cache",
-      "Register",
-      "Clipboard",
-      "RAM"
+      "De Chancourtois",
+      "John Newlands",
+      "Lothar Meyer",
+      "Dmitri Mendeleev"
     ],
-    "answer": "Clipboard"
+    "answer": "De chancourtois"
   },
   {
-    "question": "Copying a text block from one location to another typically requires how many distinct processes (Select, Copy, Move Cursor, Paste)?",
+    "question": "The 'Law of Octaves,' which compared the periodicity of elements to musical scales, was put forward by ____.",
     "options": [
-      "Two",
-      "Three",
-      "Four",
-      "Five"
+      "Dobereiner",
+      "Newlands",
+      "Dalton",
+      "Lavoisier"
     ],
-    "answer": "Four"
+    "answer": "Law of octaves"
   },
   {
-    "question": "____ may be applied before typing a paragraph or after the paragraph has been typed.",
+    "question": "Which scientist is famously credited with arranging elements in order of increasing atomic weight, leading to the first successful prediction of unknown elements?",
     "options": [
-      "Font Style",
-      "Paragraph alignment",
-      "Tab Stops",
-      "Text Color"
+      "Mendeleev",
+      "Meyer",
+      "Moseley",
+      "Ramsay"
     ],
-    "answer": "Paragraph alignment"
+    "answer": "Mendeleev"
   },
   {
-    "question": "____ determines how text is positioned between the left and right indents.",
+    "question": "Both elements in the 1st period (Hydrogen and Helium) contain their valence electrons in which shell?",
     "options": [
-      "Line Spacing",
-      "Font Size",
-      "Margin Setting",
-      "Paragraph alignment"
+      "K shell",
+      "L shell",
+      "M shell",
+      "N shell"
     ],
-    "answer": "Paragraph alignment"
+    "answer": "K shell"
   },
   {
-    "question": "Standard word processors typically offer how many primary paragraph alignment options (Left, Right, Center, Justify)?",
+    "question": "In the modern periodic table, where is the noble gas Helium specifically placed?",
     "options": [
-      "Two",
-      "Three",
-      "Four",
-      "Five"
+      "Top left corner",
+      "Bottom left corner",
+      "Top right corner",
+      "Center"
     ],
-    "answer": "Four"
+    "answer": "top right corner"
   },
   {
-    "question": "A ____ comprises a grid of numbered rows and lettered columns intersecting in cells.",
+    "question": "Based on its electronic configuration ($1s^2 2s^2 2p^1$), an element with atomic number 5 (Boron) belongs to which period and group?",
     "options": [
-      "Word Processor",
-      "Database",
-      "Spreadsheet",
-      "Graphic Package"
+      "Period 1 and Group IA",
+      "Period 2 and Group IIIA",
+      "Period 3 and Group IIA",
+      "Period 2 and Group VA"
     ],
-    "answer": "Spreadsheet"
+    "answer": "2 and IIIA"
   },
   {
-    "question": "A cell in a spreadsheet can contain either text or ____.",
+    "question": "The chemical properties and reactivity of an element primarily depend upon which of the following?",
     "options": [
-      "image files",
-      "executable code",
-      "numbered values",
-      "printer settings"
+      "Number of neutrons",
+      "Valence shell electronic configuration",
+      "Atomic mass",
+      "Nuclear stability"
     ],
-    "answer": "numbered values"
+    "answer": "valence shell electronic configuration"
   },
   {
-    "question": "A spreadsheet consists of information written in ____ form.",
+    "question": "In which group of the periodic table are the Noble Gases located?",
     "options": [
-      "linear",
-      "narrative",
-      "hierarchical",
-      "Tabular"
+      "Group IA",
+      "Group VIIA",
+      "Group VIIIA",
+      "Group IB"
     ],
-    "answer": "Tabular"
+    "answer": "VIIIA group"
   },
   {
-    "question": "A series of data depicted horizontally in a spreadsheet is called a ____.",
+    "question": "What is the specific term for the energy required to remove an electron from the outermost shell of an isolated gaseous atom?",
     "options": [
-      "column",
-      "cell",
-      "row",
-      "sheet"
+      "Electron affinity",
+      "Electronegativity",
+      "Ionization energy",
+      "Lattice energy"
     ],
-    "answer": "row"
+    "answer": "ionization energy"
   },
   {
-    "question": "A series of data depicted vertically in a spreadsheet is called a ____.",
+    "question": "As you move from top to bottom within a group, the shielding effect ____ due to the addition of more electron shells.",
     "options": [
-      "row",
-      "range",
-      "column",
-      "record"
+      "Decreases",
+      "Increases",
+      "Stays the same",
+      "Becomes zero"
     ],
-    "answer": "column"
+    "answer": "Increases"
   },
   {
-    "question": "____ has become a universal tool of any modern person.",
+    "question": "While Group B elements are called transition elements, Group A elements (s and p blocks) are generally called ____ elements.",
     "options": [
-      "Automobile",
-      "Television",
-      "Computer",
-      "Telephone"
+      "Representative",
+      "Noble",
+      "Inner-transition",
+      "Rare earth"
     ],
-    "answer": "Computer"
+    "answer": "representative"
   },
   {
-    "question": "The computer has become a ____ of any modern person.",
+    "question": "The period number of an element in the periodic table indicates the ____ of its valence shell.",
     "options": [
-      "luxury item",
-      "universal tool",
-      "difficult system",
-      "niche device"
+      "Number of electrons",
+      "Principal quantum number (n) value",
+      "Subshell type",
+      "Magnetic spin"
     ],
-    "answer": "universal tool"
+    "answer": "value of valence shell"
   },
   {
-    "question": "____, today, is not defined only in terms of the ability to read and/or write but also includes the ability to use and communicate with the aid of a computer.",
+    "question": "The relative ability of an atom in a molecule to attract shared electrons toward itself is known as ____.",
     "options": [
-      "Numeracy",
-      "Literacy",
-      "Engineering",
-      "Typing"
+      "Electron affinity",
+      "Ionization potential",
+      "Electronegativity",
+      "Polarization"
     ],
-    "answer": "Literacy"
+    "answer": "Electronegativity"
   },
   {
-    "question": "In the ____ sector, computers are being used extensively to promote teaching and learning.",
-    "options": [
-      "manufacturing",
-      "finance",
-      "education",
-      "retail"
-    ],
-    "answer": "education"
+    question: "The average distance between the nucleus and the outer shell is known as?",
+    options: ["atomic mass", "atomic size", "atomic number", "ionic radius"],
+    answer: "atomic size"
   },
+  {
+    question: "Which group contains the alkaline earth metals?",
+    options: ["IA", "IIA", "IIIA", "VIIA"],
+    answer: "IIA"
+  },
+  {
+    question: "Physical properties of elements depend primarily on the?",
+    options: ["number of neutrons", "size of atom", "mass number", "type of isotope"],
+    answer: "size of atom"
+  },
+  {
+    question: "Elements that lie in the same column of the periodic table have?",
+    options: ["same atomic mass", "similar properties", "same number of shells", "different valencies"],
+    answer: "similar properties"
+  },
+  {
+    question: "As you move from left to right across a period, electron affinity ____?",
+    options: ["decreases", "remains constant", "increases", "becomes zero"],
+    answer: "increases"
+  },
+  {
+    question: "The decrease in force of attraction between valence electrons and the nucleus by inner electrons is called?",
+    options: ["ionization energy", "electron affinity", "shielding effect", "electronegativity"],
+    answer: "shielding effect"
+  },
+  {
+    question: "The 14 elements following Actinium are known as?",
+    options: ["Lanthanides", "Transition metals", "Actinides", "Halogens"],
+    answer: "Actinides"
+  },
+  {
+    question: "An element with atomic number 15 (Phosphorus) shows similar chemical properties to which element?",
+    options: ["C (6)", "N (7)", "O (8)", "S (16)"],
+    answer: "N (7)"
+  },
+  {
+    question: "What are the group and period numbers of an element with atomic number 8?",
+    options: ["2, 6", "6, 2", "16, 2", "2, 8"],
+    answer: "6, 2"
+  },
+  {
+    question: "Identify the incorrect sequence of elements in a group.",
+    options: ["Li, Na, K", "F, Cl, Br", "Cu, Au, Ag", "Be, Mg, Ca"],
+    answer: "Cu, Au, Ag"
+  },
+  {
+    question: "An element with atomic number 11 will form what type of oxide?",
+    options: ["acidic oxide", "basic oxide", "neutral oxide", "amphoteric oxide"],
+    answer: "basic oxide"
+  },
+  {
+    question: "Which principle is violated in the configuration 1s2 2s3?",
+    options: ["Hund's rule", "Aufbau principle", "Pauli's exclusion principle", "Heisenberg principle"],
+    answer: "Pauli's exclusion principle"
+  },
+  {
+    question: "Which rule is violated in the configuration 1s2 2s2 2px2 2py1?",
+    options: ["Pauli's exclusion principle", "Aufbau principle", "Hund's rule", "Octet rule"],
+    answer: "Hund's rule"
+  },
+  {
+    question: "Which principle is violated in the configuration 1s2 2px2?",
+    options: ["Hund's rule", "Pauli's exclusion principle", "Aufbau principle", "Octet rule"],
+    answer: "Aufbau principle"
+  },
+  {
+    question: "What type of bonding is found in an Ammonia molecule?",
+    options: ["ionic", "metallic", "covalent", "hydrogen"],
+    answer: "covalent"
+  },
+  {
+    question: "The polarizing power of a cation is ____ proportional to its size.",
+    options: ["directly", "inversely", "not related", "exponentially"],
+    answer: "inversely"
+  },
+  {
+    question: "What is the common name for Na₃AlF₆?",
+    options: ["Bauxite", "Cryolite", "Fluorspar", "Alum"],
+    answer: "Cryolite"
+  },
+  {
+    question: "The phenomenon where a metal ion is surrounded by solvent molecules is called?",
+    options: ["hydration", "solvation", "oxidation", "complexation"],
+    answer: "solvation"
+  },
+  {
+    question: "Metallic elements mostly form what kind of oxides?",
+    options: ["acidic", "basic", "neutral", "amphoteric"],
+    answer: "basic"
+  }
+];
 
-  ];
-  
-//   console.log(gravityQuiz.length); // Should print 50
+// ================= STATE =================
+let currentQuestionIndex =
+  parseInt(localStorage.getItem("currentQuestionIndex")) || 0;
 
-  
-let currentQuestionIndex = parseInt(localStorage.getItem("currentQuestionIndex")) || 0;
-        let selectedAnswers = JSON.parse(localStorage.getItem("selectedAnswers")) || Array(gravityQuiz.length).fill(null);
-        let score = 0;
+let selectedAnswers =
+  JSON.parse(localStorage.getItem("selectedAnswers")) ||
+  Array(gravityQuiz.length).fill(null);
 
-        const questionElement = document.getElementById("question");
-        const optionsElement = document.getElementById("options");
-        const nextButton = document.getElementById("next-btn");
-        const prevButton = document.getElementById("prev-btn");
-        const scoreContainer = document.getElementById("score-container");
-        const navButtonsContainer = document.getElementById("nav-buttons");
+let score = 0;
 
-        function loadQuestion() {
-            resetState();
-            let currentQuestion = gravityQuiz[currentQuestionIndex];
-            questionElement.innerText = `Q${currentQuestionIndex + 1}: ${currentQuestion.question}`;
+// ================= ELEMENTS =================
+const questionElement = document.getElementById("question");
+const optionsElement = document.getElementById("options");
+const nextButton = document.getElementById("next-btn");
+const prevButton = document.getElementById("prev-btn");
+const scoreContainer = document.getElementById("score-container");
+const navButtonsContainer = document.getElementById("nav-buttons");
 
-            let optionLetters = ["A", "B", "C", "D"];
-            currentQuestion.options.forEach((option, index) => {
-                const button = document.createElement("button");
-                button.innerText = `${optionLetters[index]}. ${option}`;
-                button.classList.add("option");
-                if (selectedAnswers[currentQuestionIndex] === option) {
-                    button.classList.add("active");
-                }
-                button.addEventListener("click", () => selectAnswer(button, option));
-                optionsElement.appendChild(button);
-            });
+// ================= LOAD QUESTION =================
+function loadQuestion() {
+  resetState();
 
-            updateButtons();
-            updateNavButtons();
+  const currentQuestion = gravityQuiz[currentQuestionIndex];
+  questionElement.innerText = `Q${currentQuestionIndex + 1}: ${currentQuestion.question}`;
+
+  const optionLetters = ["A", "B", "C", "D"];
+
+  currentQuestion.options.forEach((option, index) => {
+    const button = document.createElement("button");
+    button.innerText = `${optionLetters[index]}. ${option}`;
+    button.classList.add("option");
+
+    if (selectedAnswers[currentQuestionIndex] === option) {
+      button.classList.add("active");
+    }
+
+    button.addEventListener("click", () => selectAnswer(button, option));
+    optionsElement.appendChild(button);
+  });
+
+  updateButtons();
+  updateNavButtons();
+  updateNextButtonState();
+
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+// ================= SELECT ANSWER =================
+function selectAnswer(button, selectedOption) {
+  selectedAnswers[currentQuestionIndex] = selectedOption;
+  localStorage.setItem("selectedAnswers", JSON.stringify(selectedAnswers));
+
+  document.querySelectorAll(".option").forEach(btn =>
+    btn.classList.remove("active")
+  );
+
+  button.classList.add("active");
+  updateNavButtons();
+  updateNextButtonState();
+}
+
+// ================= BUTTON STATES =================
+function updateButtons() {
+  prevButton.style.display = currentQuestionIndex > 0 ? "inline-block" : "none";
+  nextButton.innerText =
+    currentQuestionIndex < gravityQuiz.length - 1 ? "Next" : "Finish";
+}
+
+function updateNextButtonState() {
+  nextButton.disabled = selectedAnswers[currentQuestionIndex] === null;
+}
+
+// ================= RESET =================
+function resetState() {
+  optionsElement.innerHTML = "";
+}
+
+// ================= NAVIGATION BUTTONS =================
+function updateNavButtons() {
+  navButtonsContainer.innerHTML = "";
+
+  gravityQuiz.forEach((_, index) => {
+    const btn = document.createElement("button");
+    btn.innerText = index + 1;
+    btn.classList.add("nav-btn");
+
+    if (selectedAnswers[index]) {
+      btn.classList.add("answered");
+    } else {
+      btn.classList.add("unanswered");
+    }
+
+    if (index === currentQuestionIndex) {
+      btn.classList.add("active");
+    }
+
+    btn.addEventListener("click", () => {
+      currentQuestionIndex = index;
+      localStorage.setItem("currentQuestionIndex", currentQuestionIndex);
+      loadQuestion();
+    });
+
+    navButtonsContainer.appendChild(btn);
+  });
+}
+
+// ================= EVENTS =================
+nextButton.addEventListener("click", () => {
+  if (currentQuestionIndex < gravityQuiz.length - 1) {
+    currentQuestionIndex++;
+    localStorage.setItem("currentQuestionIndex", currentQuestionIndex);
+    loadQuestion();
+  } else {
+    calculateScore();
+    showResults();
+  }
+});
+
+prevButton.addEventListener("click", () => {
+  if (currentQuestionIndex > 0) {
+    currentQuestionIndex--;
+    localStorage.setItem("currentQuestionIndex", currentQuestionIndex);
+    loadQuestion();
+  }
+});
+
+// ================= SCORE =================
+function calculateScore() {
+  score = 0;
+  selectedAnswers.forEach((answer, index) => {
+    if (answer === gravityQuiz[index].answer) {
+      score++;
+    }
+  });
+}
+
+// ================= RESULTS + CORRECTIONS =================
+function showResults() {
+  questionElement.innerText = "Quiz Completed 🎉";
+
+  const percentage = Math.round((score / gravityQuiz.length) * 100);
+
+  let resultHTML = `
+    <h3>Your Score: ${score} / ${gravityQuiz.length}</h3>
+    <h4>Percentage: ${percentage}%</h4>
+    <hr>
+    <h3>Corrections</h3>
+  `;
+
+  gravityQuiz.forEach((q, index) => {
+    const userAnswer = selectedAnswers[index];
+    const correctAnswer = q.answer;
+    const isCorrect = userAnswer === correctAnswer;
+
+    resultHTML += `
+      <div class="correction">
+        <p><strong>Q${index + 1}:</strong> ${q.question}</p>
+        <p>Your Answer: 
+          <span style="color:${isCorrect ? "green" : "red"}">
+            ${userAnswer || "Not Answered"}
+          </span>
+        </p>
+        ${
+          !isCorrect
+            ? `<p>Correct Answer: <span style="color:green">${correctAnswer}</span></p>`
+            : `<p style="color:green">✔ Correct</p>`
         }
+        <hr>
+      </div>
+    `;
+  });
 
-        function selectAnswer(button, selectedOption) {
-            selectedAnswers[currentQuestionIndex] = selectedOption;
-            localStorage.setItem("selectedAnswers", JSON.stringify(selectedAnswers));
-            document.querySelectorAll(".option").forEach(btn => btn.classList.remove("active"));
-            button.classList.add("active");
-            updateNavButtons();
-        }
+  optionsElement.innerHTML = resultHTML;
+  nextButton.style.display = "none";
+  prevButton.style.display = "none";
+  navButtonsContainer.style.display = "none";
 
-        function updateButtons() {
-            prevButton.style.display = currentQuestionIndex > 0 ? "inline-block" : "none";
-            nextButton.innerText = currentQuestionIndex < gravityQuiz.length - 1 ? "Next" : "Finish";
-        }
+  const restartButton = document.createElement("button");
+  restartButton.innerText = "Restart Quiz";
+  restartButton.classList.add("restart-btn");
 
-        function resetState() {
-            optionsElement.innerHTML = "";
-            scoreContainer.innerHTML = "";
-        }
+  restartButton.addEventListener("click", () => {
+    localStorage.removeItem("currentQuestionIndex");
+    localStorage.removeItem("selectedAnswers");
+    location.reload();
+  });
 
-        function updateNavButtons() {
-            navButtonsContainer.innerHTML = "";
-            gravityQuiz.forEach((_, index) => {
-                const btn = document.createElement("button");
-                btn.innerText = index + 1;
-                btn.classList.add("nav-btn");
+  scoreContainer.appendChild(restartButton);
+}
 
-                if (selectedAnswers[index]) {
-                    btn.classList.add("answered"); // Green when answered
-                } else {
-                    btn.classList.add("unanswered"); // Red when unanswered
-                }
-
-                if (index === currentQuestionIndex) {
-                    btn.classList.add("active"); // Blue for active question
-                }
-
-                btn.addEventListener("click", () => {
-                    currentQuestionIndex = index;
-                    localStorage.setItem("currentQuestionIndex", currentQuestionIndex);
-                    loadQuestion();
-                });
-
-                navButtonsContainer.appendChild(btn);
-            });
-        }
-
-        nextButton.addEventListener("click", () => {
-            if (selectedAnswers[currentQuestionIndex] === null) {
-                Swal.fire({
-                    title: "Oops!",
-                    text: "Please select an answer before proceeding.",
-                    icon: "warning",
-                    confirmButtonColor: "#007BFF"
-                });
-                return;
-            }
-        
-            if (currentQuestionIndex < gravityQuiz.length - 1) {
-                currentQuestionIndex++;
-                localStorage.setItem("currentQuestionIndex", currentQuestionIndex);
-                loadQuestion();
-            } else {
-                calculateScore();
-                showResults();
-            }
-        });
-        
-
-        prevButton.addEventListener("click", () => {
-            if (currentQuestionIndex > 0)    {
-                currentQuestionIndex--;
-                localStorage.setItem("currentQuestionIndex", currentQuestionIndex);
-                loadQuestion();
-            }
-        });
-
-        function calculateScore() {
-            score = 0;
-            selectedAnswers.forEach((answer, index) => {
-                if (answer === gravityQuiz[index].answer) {
-                    score++;
-                }
-            });
-        }
-        
-        function showResults() {
-            questionElement.innerText = "Quiz Completed!";
-            optionsElement.innerHTML = `<h3>Your Score: ${score} / ${gravityQuiz.length}</h3>`;
-            nextButton.style.display = "none";
-            prevButton.style.display = "none";
-            navButtonsContainer.style.display = "none";
-        
-            // Optionally, show a restart button
-            const restartButton = document.createElement("button");
-            restartButton.innerText = "Restart Quiz";
-            restartButton.classList.add("restart-btn");
-            restartButton.addEventListener("click", () => {
-                localStorage.clear();
-                location.reload();
-            });
-        
-            scoreContainer.appendChild(restartButton);
-        }        
-
+// ================= START =================
 loadQuestion();
